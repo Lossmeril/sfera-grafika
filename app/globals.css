@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Youth Bold";
+  src: url("/fonts/youth-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Youth Medium";
+  src: url("/fonts/youth-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Youth Regular";
+  src: url("/fonts/youth-regular.woff2") format("woff2");
+}
+
+p {
+  font-family: "Youth Regular", sans-serif;
+}
+
+.room-name {
+  font-family: "Youth Medium", sans-serif;
+}
