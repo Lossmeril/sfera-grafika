@@ -15,7 +15,7 @@ export default function Home() {
         name="Laboratoř Přírodopisu"
         folderPath="/img/prvky/PRIRODA"
         prefix="Priroda"
-        numberOfElements={27}
+        numberOfElements={28}
         color="#004F9F"
       />
 
@@ -63,7 +63,7 @@ export default function Home() {
         name="Dílna Grafiky"
         folderPath="/img/prvky/GRAFIKA"
         prefix="Grafika"
-        numberOfElements={27}
+        numberOfElements={28}
         color="#F7941D"
       />
 
@@ -87,7 +87,7 @@ export default function Home() {
         name="Smíšené Prvky"
         folderPath="/img/prvky/MISC"
         prefix="Misc"
-        numberOfElements={4}
+        numberOfElements={5}
         color="#000000"
       />
     </main>
