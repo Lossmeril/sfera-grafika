@@ -19,9 +19,9 @@ const ElementSet: React.FC<ElementSetProps> = ({
   let elements = Array.from(Array(numberOfElements).keys()).map((x) => x + 1);
 
   return (
-    <div className="mx-auto my-5 border border-black w-[1502px]">
+    <div className="mx-auto my-5 border border-black w-[502px] md:w-[802px] lg:w-[1002px] 2xl:w-[1502px]">
       <div
-        className="h-12 flex items-center p-5 w-[1500px] text-white border border-black"
+        className="h-12 flex items-center p-5 w-[500px] md:w-[800px] lg:w-[1000px] 2xl:w-[1500px] text-white border border-black"
         style={{ backgroundColor: color }}
       >
         <h2 className="text-3xl color-white room-name -mb-[2px]">{name}</h2>
@@ -30,7 +30,7 @@ const ElementSet: React.FC<ElementSetProps> = ({
         {elements.map((element) => (
           <div
             key={element}
-            className="w-[150px] h-[150px] aspect-square border border-black"
+            className="w-[100px] h-[100px] 2xl:w-[150px] 2xl:h-[150px] aspect-square border border-black"
           >
             <Image
               src={
