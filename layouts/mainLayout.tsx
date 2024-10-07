@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Link from "next/link";
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -6,22 +7,33 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="m-[10vh] ">
-      <div className="px-20 py-10 bordered">
-        <h1 className="font-youth font-bold text-4xl">
-          Manuál pro práci se značkou SFÉRA
-        </h1>
+    <>
+      <div className="bordered h-10">
+        <div className="bordered mx-20 h-10"></div>
       </div>
-      <div className="flex flex-row flex-nowrap ">
-        {/* --- BOČNÍ MENU --- */}
-        <nav className="w-1/5 p-20 bordered">
-          <Navbar />
-        </nav>
+      <header className="bordered">
+        <div className="px-20 py-10 mx-20 bordered">
+          <Link href="">
+            <h1 className="text-">Manuál pro práci se značkou SFÉRA</h1>
+          </Link>
+        </div>
+      </header>
+      <main className="bordered">
+        <div className="grid grid-cols-5 mx-20">
+          {/* --- BOČNÍ MENU --- */}
+          <nav className="col-span-5 bordered md:col-span-1">
+            <div className="p-20">
+              <Navbar />
+            </div>
+          </nav>
 
-        {/* --- STRÁNKA --- */}
-        <main className="w-4/5 p-20 bordered">{children}</main>
-      </div>
-    </div>
+          {/* --- STRÁNKA --- */}
+          <section className="col-span-5 bordered second md:col-span-4">
+            <div className="p-20">{children}</div>
+          </section>
+        </div>
+      </main>
+    </>
   );
 };
 

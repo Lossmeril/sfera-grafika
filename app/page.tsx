@@ -1,6 +1,7 @@
 const Home = () => {
   return (
     <div>
+      <h2>Heading 2</h2>
       <p>
         Drahý sféřane, to, co momentálně držíš v ruce, nebo máš otevřené na
         počítači, je dodatek grafika <strong>Michala Špitálského</strong> ke

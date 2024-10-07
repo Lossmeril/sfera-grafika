@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --drevo: #7e5228;
+  --kov: #afca0b;
+  --grafika: #f7941d;
+  --textil: #ffcb04;
+
+  --chemie: #6859a3;
+  --prirodopis: #004f9f;
+  --fyzika: #ec619f;
+  --it: #83d0f5;
+
+  --sos: #e74011;
+  --hriste: #3fa535;
+  --tabory: #f37053;
+  --kreativniuceni: #4aa1ae;
+}
+
+body {
+  color: var(--black);
+  background: var(--white);
+
+  font-family: var(--youth);
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.bordered {
+  border: 1px solid var(--black);
+  margin-bottom: -1px;
+  margin-top: -1px;
+
+  .second {
+    margin-left: -1px;
+  }
+}
+
+.underline-link {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: var(--black);
+
+    transition: all 0.25s ease-in-out;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
