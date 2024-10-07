@@ -22,6 +22,11 @@
   --kreativniuceni: #4aa1ae;
 }
 
+* {
+  border-color: var(--black);
+  border-style: solid;
+}
+
 body {
   color: var(--black);
   background: var(--white);
@@ -38,6 +43,7 @@ h1 {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 2.5rem;
+  letter-spacing: -0.035em;
 }
 
 h2 {
@@ -46,6 +52,7 @@ h2 {
   line-height: 2.25rem; /* 36px */
   margin-bottom: 1.5rem;
 }
+
 h3 {
   font-weight: 700;
   font-size: 1.25rem;
@@ -62,16 +69,6 @@ h4 {
 
 strong {
   font-weight: 700;
-}
-
-.bordered {
-  border: 1px solid var(--black);
-  margin-bottom: -1px;
-  margin-top: -1px;
-
-  .second {
-    margin-left: -1px;
-  }
 }
 
 .underline-link {
