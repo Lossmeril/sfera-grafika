@@ -1,17 +1,26 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import MainLayout from "@/layouts/mainLayout";
 
-const geistSans = localFont({
-  src: "../public/fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "../public/fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const youth = localFont({
+  src: [
+    {
+      path: "../public/fonts/Youth-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Youth-Medium.woff2",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/Youth-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -26,15 +35,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="flex flex-row flex-nowrap w-screen">
-          <nav className="w-1/5 bg-blue-500">
-            <Navbar />
-          </nav>
-          <main className="w-4/5 bg-red-500">{children}</main>
-        </div>
+      <body className={`${youth.className} antialiased`}>
+        <MainLayout>{children}</MainLayout>
       </body>
     </html>
   );
