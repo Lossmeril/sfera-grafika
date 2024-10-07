@@ -21,7 +21,7 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link }) => {
 };
 
 const pages: Link[] = [
-  { displayText: "Barvy", link: "" },
+  { displayText: "Datumy a časy", link: "/datumy" },
   { displayText: "Učebny", link: "" },
 ];
 

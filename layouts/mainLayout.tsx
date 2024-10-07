@@ -18,10 +18,10 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           </Link>
         </div>
       </header>
-      <main className="border-b">
+      <main className="">
         <div className="grid grid-cols-5 mx-5 sm:mx-10 md:mx-20">
           {/* --- BOČNÍ MENU --- */}
-          <nav className="col-span-5 border-x border-b md:col-span-1 md:border-b-0">
+          <nav className="col-span-5 border-x border-b md:col-span-1">
             <div className="">
               <Navbar />
             </div>
