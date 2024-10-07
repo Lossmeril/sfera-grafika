@@ -6,15 +6,20 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="m-[10vh] border">
-      <div className="">
-        <h1>Manuál pro práci se značkou SFÉRA</h1>
+    <div className="m-[10vh] ">
+      <div className="px-20 py-10 bordered">
+        <h1 className="font-youth font-bold text-4xl">
+          Manuál pro práci se značkou SFÉRA
+        </h1>
       </div>
       <div className="flex flex-row flex-nowrap ">
-        <nav className="w-1/5 bg-blue-500">
+        {/* --- BOČNÍ MENU --- */}
+        <nav className="w-1/5 p-20 bordered">
           <Navbar />
         </nav>
-        <main className="w-4/5 bg-red-500">{children}</main>
+
+        {/* --- STRÁNKA --- */}
+        <main className="w-4/5 p-20 bordered">{children}</main>
       </div>
     </div>
   );

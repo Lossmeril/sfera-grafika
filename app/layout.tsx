@@ -4,6 +4,7 @@ import "./globals.css";
 import MainLayout from "@/layouts/mainLayout";
 
 const youth = localFont({
+  variable: "--youth",
   src: [
     {
       path: "../public/fonts/Youth-Regular.woff2",
@@ -35,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body className={`${youth.className} antialiased`}>
+      <body className={`${youth.variable} antialiased`}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

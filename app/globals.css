@@ -3,23 +3,45 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
+  --white: #ffffff;
+  --black: #000000;
 
-  --drevo: "";
-  --kov: "";
-  --grafika: "";
-  --textil: "";
+  --drevo: #7e5228;
+  --kov: #afca0b;
+  --grafika: #f7941d;
+  --textil: #ffcb04;
 
-  --chemie: "";
-  --prirodopis: "";
-  --fyzika: "";
-  --it: "";
+  --chemie: #6859a3;
+  --prirodopis: #004f9f;
+  --fyzika: #ec619f;
+  --it: #83d0f5;
+
+  --sos: #e74011;
+  --hriste: #3fa535;
+  --tabory: #f37053;
+  --kreativniuceni: #4aa1ae;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--black);
+  background: var(--white);
+
+  font-family: var(--youth);
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.bordered {
+  border: 1px solid var(--black);
+  margin-top: -1px;
+  margin-left: -1px;
 }
 
 @layer utilities {
