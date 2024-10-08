@@ -18,19 +18,22 @@ const DatumyPage = () => {
             se <strong>kapitalizuje celé slovo</strong>, nikoliv pouze jeho
             kořen.
           </li>
-          <h3 className="mt-8 mb-2">sférický</h3>
+          <p className="above-heading mt-8 ">Výjimka</p>
+          <h3 className="mb-2">sférický</h3>
           <li>
             Výjimkou je odvozené přídavné jméno{" "}
             <strong>&ldquo;sférický&rdquo;</strong> (vč. skloňování), které se
             píší <strong>bez jakékoliv úpravy kapitalizace</strong>.
           </li>
-          <h3 className="mt-8 mb-2">sféřan</h3>
+          <p className="above-heading mt-8 ">Výjimka</p>
+          <h3 className="mb-2">sféřan</h3>
           <li>
-            Chceme-li mluvit o člověku ze SFÉRY jako o <strong></strong>
-            &ldquo;sféřanovi&rdquo; (pod. jméno, vzor pán), užijeme{" "}
-            <strong>normální kapitalizaci</strong>, která vyplývá z věty
+            Chceme-li mluvit o člověku ze SFÉRY jako o{" "}
+            <strong>&ldquo;sféřanovi&rdquo;</strong> (pod. jméno, vzor pán),
+            užijeme <strong>normální kapitalizaci</strong>, která vyplývá z věty
           </li>
-          <h3 className="mt-8 mb-2">O koulích a lidech</h3>
+          <p className="above-heading mt-8 ">Výjimka</p>
+          <h3 className="mb-2">O koulích a lidech</h3>
           <li>
             Druhou výjimkou je neobvyklé použití slova <strong></strong>
             &ldquo;sféra&rdquo; v kontextu koule v Sále Science on a Sphere,

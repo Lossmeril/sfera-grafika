@@ -21,7 +21,7 @@ const Navbar = () => {
     <ul className="px-8 py-4 lg:py-20 text-center hidden lg:block">
       <h4>Prvky</h4>
       <NavbarLink link={"/"}>Sady prvků</NavbarLink>
-      <NavbarLink link={"/"}>Zakázané prvky</NavbarLink>
+      <NavbarLink link={"/prvky/zakazane-prvky"}>Zakázané prvky</NavbarLink>
 
       <h4 className="mt-10">Jak se to píše?</h4>
       <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>

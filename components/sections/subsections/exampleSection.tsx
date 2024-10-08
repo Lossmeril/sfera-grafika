@@ -54,7 +54,7 @@ const ExampleSubSection: React.FC<ExampleSubSectionProps> = ({
   errors,
 }) => {
   return (
-    <section className="w-full mt-8 mb-5 flex flex-col lg:flex-row flex-nowrap gap-5">
+    <div className="w-full mt-8 mb-5 flex flex-col lg:flex-row flex-nowrap gap-5">
       <ExampleBlock>
         <h4>Správná užití:</h4>
         <ul className="list-disc list-inside">{correct}</ul>
@@ -63,7 +63,7 @@ const ExampleSubSection: React.FC<ExampleSubSectionProps> = ({
         <h4>Chyby:</h4>
         <ul className="list-disc list-inside">{errors}</ul>
       </ExampleBlock>
-    </section>
+    </div>
   );
 };
 
