@@ -1,3 +1,4 @@
+import LogoHeader from "@/components/logo";
 import Navbar from "@/components/navbar";
 import Link from "next/link";
 
@@ -19,11 +20,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           <div className="border-b border-x lg:border-b-0 col-span-5 lg:col-span-1 flex flex-col justify-center items-start lg:items-center">
             <Link href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/logo.svg"
-                alt="logo SFÉRA"
-                className="px-5 lg:px-5 xl:px-10 py-2 lg:py-10 w-[150px] md:w-[250px] lg:w-[300px]"
-              />
+              <LogoHeader />
             </Link>
           </div>
           {/* --- NÁZEV STRÁNKY --- */}
