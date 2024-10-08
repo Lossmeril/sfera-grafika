@@ -4,10 +4,7 @@ const LogoHeader = () => {
 
   const roll = Math.floor(Math.random() * max) + 1;
 
-  console.log(chance);
-  console.log(max);
   console.log(roll);
-  console.log(roll > chance ? "/img/logo.svg" : "/img/logo-ncl.png");
 
   return (
     // eslint-disable-next-line @next/next/no-img-element
