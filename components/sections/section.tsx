@@ -1,9 +1,14 @@
 interface SectionProps {
   children: React.ReactNode;
+  last?: boolean;
 }
 
-const Section: React.FC<SectionProps> = ({ children }) => {
-  return <section className="w-full border-b p-20">{children}</section>;
+const Section: React.FC<SectionProps> = ({ children, last }) => {
+  return (
+    <section className={"w-full p-20 " + (last ? "border-b-0" : "border-b")}>
+      {children}
+    </section>
+  );
 };
 
 export default Section;

@@ -36,7 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body className={`${youth.variable} antialiased`}>
+      <body
+        className={`${youth.variable} antialiased h-auto md:h-screen md:overflow-hidden`}
+      >
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

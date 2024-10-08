@@ -1,4 +1,3 @@
-import ImageSection from "@/components/sections/imageSection";
 import Section from "@/components/sections/section";
 
 const Home = () => {
@@ -23,7 +22,6 @@ const Home = () => {
           rozpoznatelnosti značky veřejností.
         </p>
       </Section>
-      <ImageSection />
     </div>
   );
 };

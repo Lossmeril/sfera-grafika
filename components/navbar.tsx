@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <ul className="p-20 text-center">
       <h3>Jak se to píše?</h3>
-      <NavbarLink link={"/"}>SFÉRA</NavbarLink>
+      <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>
       <NavbarLink link={"/copy/datumy"}>Datumy a časy</NavbarLink>
     </ul>
   );

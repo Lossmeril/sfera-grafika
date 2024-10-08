@@ -11,7 +11,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       <div className="border-b h-[5vh]">
         <div className="border-x h-[5vh] mx-5 sm:mx-10 md:mx-20"></div>
       </div>
-      <header className="border-b">
+      <header className="border-b h-[13vh] flex flex-col justify-center">
         <div className="px-20 py-10 border-x mx-5 sm:mx-10 md:mx-20">
           <Link href="/">
             <h1 className="text-">Manuál pro práci se značkou SFÉRA</h1>
@@ -26,13 +26,13 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           </nav>
 
           {/* --- STRÁNKA --- */}
-          <section className="col-span-5 border-r border-l border-b md:col-span-4 md:border-l-0 h-[75vh] overflow-y-scroll">
+          <section className="col-span-5 border-r border-l border-b md:col-span-4 md:border-l-0 h-[70vh] overflow-y-scroll">
             <div className="">{children}</div>
           </section>
         </div>
       </main>
       <footer className="border-b">
-        <div className="px-20 py-5 border-x mx-5 sm:mx-10 md:mx-20">
+        <div className="px-20 border-x mx-5 sm:mx-10 md:mx-20 h-[7vh] flex flex-col justify-center">
           <p className="m-0 text-sm">Made with React, love and Cor-Ten</p>
         </div>
       </footer>
