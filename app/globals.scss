@@ -71,6 +71,20 @@ strong {
   font-weight: 700;
 }
 
+.correct-example {
+  em {
+    font-weight: 400;
+    color: var(--hriste);
+  }
+}
+
+.error-example {
+  em {
+    font-weight: 400;
+    color: var(--sos);
+  }
+}
+
 .underline-link {
   position: relative;
   margin-left: auto;

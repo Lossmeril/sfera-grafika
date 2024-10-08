@@ -20,19 +20,12 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link }) => {
   );
 };
 
-const pages: Link[] = [
-  { displayText: "Datumy a časy", link: "/datumy" },
-  { displayText: "Učebny", link: "" },
-];
-
 const Navbar = () => {
   return (
-    <ul className="">
-      {pages.map((page) => (
-        <NavbarLink key={page.link} link={page.link}>
-          {page.displayText}
-        </NavbarLink>
-      ))}
+    <ul className="p-20 text-center">
+      <h3>Jak se to píše?</h3>
+      <NavbarLink link={"/"}>SFÉRA</NavbarLink>
+      <NavbarLink link={"/copy/datumy"}>Datumy a časy</NavbarLink>
     </ul>
   );
 };
