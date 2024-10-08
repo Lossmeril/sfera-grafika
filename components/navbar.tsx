@@ -22,7 +22,7 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link }) => {
 
 const Navbar = () => {
   return (
-    <ul className="p-20 text-center">
+    <ul className="p-8 md:p-20  text-center">
       <h3>Jak se to píše?</h3>
       <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>
       <NavbarLink link={"/copy/datumy"}>Datumy a časy</NavbarLink>
