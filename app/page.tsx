@@ -1,28 +1,34 @@
-import Section from "@/components/sections/section";
+import Section, { ImageSection } from "@/components/sections/sections";
 
 const Home = () => {
   return (
-    <div>
-      <Section>
-        <h2>Heading 2</h2>
+    <>
+      <ImageSection image="/img/pattern-wallpaper.webp" />
+      <Section last>
+        <h2>Grafický manifest sférický</h2>
         <p>
-          Drahý sféřane, to, co momentálně držíš v ruce, nebo máš otevřené na
-          počítači, je dodatek grafika <strong>Michala Špitálského</strong> ke
-          grafickému manuálu studia <strong>Permanent Office</strong> a grafičky{" "}
+          Drahý sféřane, tato webová stránka je sjednocením vizuáních pravidel{" "}
+          <strong>Michala Špitálského</strong> a původního grafického manuálu
+          studia <strong>Permanent Office</strong> a grafičky{" "}
           <strong>Cindy Kutíkové</strong>.
         </p>
         <p>
-          Tento dodatek obsahuje věci, které nebyly zohledněny v původním
-          manuálu, ale jejichž standardizace vyplynula za půl rok používání
-          vizuální identity.
-        </p>
-        <p>
-          Na základě tohoto dodatku by měla být sjednocena největší část
+          Tato webovka obsahuje základní pravidla pro práci se značkou
+          Vzdělávacího centra SFÉRA Pardubice. Mnoho pravidel bylo od původního
+          manuálu upraveno z důvodů, které vyplynuly během používání identity v
+          praxi. Na základě tohoto dodatku by měla být sjednocena největší část
           vizuální identity pro ještě větší ucelenost komunikace a pro zvýšení
           rozpoznatelnosti značky veřejností.
         </p>
+        <p>
+          Jelikož SFÉRA komunikuje s veřejností na denní bázi, je zapotřebí, aby
+          veškerá komunikace vypadala jednotně. Může se zdát, že se jedná o
+          slovíčkaření a pedantský drobnohled, ale na vizuálních podkladech
+          vypadá lépe, když na první pohled vypadají, že je psal ucelený
+          kolektiv a ne 30 individuálních osob, každá přidávající něco svého.
+        </p>
       </Section>
-    </div>
+    </>
   );
 };
 

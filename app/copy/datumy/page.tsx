@@ -1,12 +1,12 @@
-import ExampleSection, {
+import ExampleSubSection, {
   CorrectExample,
   ErrorExample,
-} from "@/components/sections/exampleSection";
-import Section from "@/components/sections/section";
+} from "@/components/sections/subsections/exampleSection";
+import Section from "@/components/sections/sections";
 
 const DatumyPage = () => {
   return (
-    <div>
+    <>
       <Section>
         <h2>Datumy a časy</h2>
         <ul>
@@ -16,7 +16,7 @@ const DatumyPage = () => {
             okolí bude mnoho čísel).
           </li>
         </ul>
-        <ExampleSection
+        <ExampleSubSection
           correct={
             <>
               <CorrectExample content={<>10. června 2024</>} />
@@ -52,7 +52,7 @@ const DatumyPage = () => {
           }
         />
       </Section>
-    </div>
+    </>
   );
 };
 

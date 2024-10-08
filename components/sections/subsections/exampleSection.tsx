@@ -44,12 +44,15 @@ const ExampleBlock: React.FC<ExampleBlockProps> = ({ children, error }) => {
   );
 };
 
-interface ExampleSectionProps {
+interface ExampleSubSectionProps {
   correct: React.ReactNode;
   errors: React.ReactNode;
 }
 
-const ExampleSection: React.FC<ExampleSectionProps> = ({ correct, errors }) => {
+const ExampleSubSection: React.FC<ExampleSubSectionProps> = ({
+  correct,
+  errors,
+}) => {
   return (
     <section className="w-full mt-8 mb-5 flex flex-col lg:flex-row flex-nowrap gap-5">
       <ExampleBlock>
@@ -64,4 +67,4 @@ const ExampleSection: React.FC<ExampleSectionProps> = ({ correct, errors }) => {
   );
 };
 
-export default ExampleSection;
+export default ExampleSubSection;

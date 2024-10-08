@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="cs">
       <body
-        className={`${youth.variable} antialiased h-auto md:h-screen md:overflow-hidden`}
+        className={`${youth.variable} antialiased h-auto lg:h-screen lg:overflow-hidden`}
       >
         <MainLayout>{children}</MainLayout>
       </body>

@@ -1,12 +1,12 @@
-import ExampleSection, {
+import ExampleSubSection, {
   CorrectExample,
   ErrorExample,
-} from "@/components/sections/exampleSection";
-import Section from "@/components/sections/section";
+} from "@/components/sections/subsections/exampleSection";
+import Section from "@/components/sections/sections";
 
 const DatumyPage = () => {
   return (
-    <div>
+    <>
       <Section last>
         <h2>Psaní slova SFÉRA a odvozených variant</h2>
         <ul>
@@ -41,7 +41,7 @@ const DatumyPage = () => {
             jej prosím používejte opravdu jen výjimečně.
           </li>
         </ul>
-        <ExampleSection
+        <ExampleSubSection
           correct={
             <>
               <CorrectExample
@@ -133,7 +133,7 @@ const DatumyPage = () => {
           }
         />
       </Section>
-    </div>
+    </>
   );
 };
 
