@@ -14,17 +14,21 @@ export const ElementSquare: React.FC<ElementSquareProps> = ({
   forbidden,
 }) => {
   return (
-    <div className="flex flex-col flex-nowrap gap-2 ">
+    <div className="flex flex-col flex-nowrap gap-2">
       <div
         className={
-          "w-full aspect-square relative border " +
+          "w-full aspect-square relative " +
           (forbidden ? "forbidden-block " : " ")
         }
       >
-        <Image src={image} alt={title} fill className="object-cover" />
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover"
+          title={forbidden ? "ZAKÁZANÝ PRVEK" : title}
+        />
       </div>
-
-      <h4 className="text-xs font-medium">{title}</h4>
     </div>
   );
 };
@@ -41,12 +45,12 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
   return (
     <>
       <h3
-        className={twMerge("text-center text-white font-medium border")}
+        className={twMerge("text-center text-white font-medium border mb-0")}
         style={{ backgroundColor: "var(--" + facility.colorBgVarName }}
       >
         {facility.name}
       </h3>
-      <div className="w-full mt-8 mb-10 grid gap-2 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-7">
+      <div className="w-full mb-10 mt-4 grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 2xl:grid-cols-10 gap-4">
         {elements.map((element) => (
           <ElementSquare
             key={element}
@@ -62,6 +66,10 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
               "motiv" +
               (element != 1 ? element : "") +
               ".jpg"
+            }
+            forbidden={
+              facility.elementSet.forbiddenElements &&
+              facility.elementSet.forbiddenElements.includes(element)
             }
           />
         ))}

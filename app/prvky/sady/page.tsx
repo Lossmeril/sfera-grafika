@@ -9,6 +9,8 @@ import {
   laboratorFyziky,
   laboratorITVR,
   laboratorPrirodopisu,
+  scienceOnSphere,
+  sferickeHriste,
 } from "@/datasets/facilities";
 
 const SadyPrvkuPage = () => {
@@ -26,6 +28,9 @@ const SadyPrvkuPage = () => {
         <ElementGridSubSection facility={laboratorFyziky} />
         <ElementGridSubSection facility={laboratorChemie} />
         <ElementGridSubSection facility={laboratorPrirodopisu} />
+
+        <ElementGridSubSection facility={sferickeHriste} />
+        <ElementGridSubSection facility={scienceOnSphere} />
       </Section>
     </>
   );

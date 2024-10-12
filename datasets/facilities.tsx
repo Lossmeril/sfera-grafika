@@ -66,6 +66,7 @@ export const laboratorITVR: facilityType = {
   elementSet: {
     elementPrefix: "IT_",
     numberOfElements: 29,
+    forbiddenElements: [2, 8, 12, 15, 19, 20],
   },
 };
 
@@ -102,5 +103,29 @@ export const laboratorPrirodopisu: facilityType = {
   elementSet: {
     elementPrefix: "Priroda_",
     numberOfElements: 33,
+  },
+};
+
+export const sferickeHriste: facilityType = {
+  name: "Sférické Hřiště",
+  nameEn: "Spherical Playground",
+
+  colorBgVarName: "hriste",
+
+  elementSet: {
+    elementPrefix: "Deti_",
+    numberOfElements: 27,
+  },
+};
+
+export const scienceOnSphere: facilityType = {
+  name: "Sál Science on a Sphere",
+  nameEn: "Science on a Sphere Room",
+
+  colorBgVarName: "sos",
+
+  elementSet: {
+    elementPrefix: "Science_Sphere_",
+    numberOfElements: 26,
   },
 };
