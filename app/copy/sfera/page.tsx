@@ -11,7 +11,7 @@ const DatumyPage = () => {
         <h2>Psaní slova SFÉRA a odvozených variant</h2>
         <ul>
           <h3 className="mt-8 mb-2">SFÉRA</h3>
-          <li>
+          <li className="mb-2">
             Pro zachování vizuální jednotnosti s logem bylo určeno, že SFÉRA a
             všechna její skloňování se{" "}
             <strong>píší verzálkami (velkými písmeny)</strong>. Při skloňování
@@ -20,21 +20,21 @@ const DatumyPage = () => {
           </li>
           <p className="above-heading mt-8 ">Výjimka</p>
           <h3 className="mb-2">sférický</h3>
-          <li>
+          <li className="mb-2">
             Výjimkou je odvozené přídavné jméno{" "}
             <strong>&ldquo;sférický&rdquo;</strong> (vč. skloňování), které se
             píší <strong>bez jakékoliv úpravy kapitalizace</strong>.
           </li>
           <p className="above-heading mt-8 ">Výjimka</p>
           <h3 className="mb-2">sféřan</h3>
-          <li>
+          <li className="mb-2">
             Chceme-li mluvit o člověku ze SFÉRY jako o{" "}
             <strong>&ldquo;sféřanovi&rdquo;</strong> (pod. jméno, vzor pán),
             užijeme <strong>normální kapitalizaci</strong>, která vyplývá z věty
           </li>
           <p className="above-heading mt-8 ">Výjimka</p>
           <h3 className="mb-2">O koulích a lidech</h3>
-          <li>
+          <li className="mb-2">
             Druhou výjimkou je neobvyklé použití slova <strong></strong>
             &ldquo;sféra&rdquo; v kontextu koule v Sále Science on a Sphere,
             která se rovněž <strong>nekapitalizuje</strong>, aby nedošlo k mýlce

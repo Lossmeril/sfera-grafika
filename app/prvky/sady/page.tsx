@@ -21,11 +21,14 @@ const SadyPrvkuPage = () => {
       <Section last>
         <h2>Sady prvků</h2>
         <ul className="mb-10">
-          <li>
+          <li className="mb-2">
             Níže naleznete jednotlivé sady z původního grafického manuálu pro
-            jednotlivé učebny.
+            jednotlivé učebny. Tato stránka obashuje i{" "}
+            <strong>nové autorské prvky</strong>, které vznikly až během provozu
+            SFÉRY. Tyto nové prvky jsou označeny{" "}
+            <strong className="text-hriste">zeleným puntíkem</strong>.
           </li>
-          <li>
+          <li className="mb-2">
             Některé prvky jsou přešktrnuté&mdash;to znamená, že se jedná o tzv.{" "}
             <strong>zakázaný prvek</strong>. Více o zakázaných prvcích se
             dozvíte na stránce{" "}

@@ -3,7 +3,7 @@ import Section, { ImageSection } from "@/components/sections/sections";
 const Home = () => {
   return (
     <>
-      <ImageSection image="/img/pattern-wallpaper.webp" />
+      <ImageSection image="/img/sfera-budova.jpg" />
       <Section last>
         <h2>Grafický manifest sférický</h2>
         <p>

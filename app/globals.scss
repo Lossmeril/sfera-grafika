@@ -177,6 +177,20 @@ a {
   }
 }
 
+.author-element-block {
+  position: relative;
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: var(--hriste);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

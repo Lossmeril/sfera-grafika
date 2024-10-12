@@ -10,7 +10,7 @@ const DatumyPage = () => {
       <Section>
         <h2>Datumy a časy</h2>
         <ul>
-          <li>
+          <li className="mb-2">
             Datumy se uvádějí vždy ve formátu <strong>D. měsíc YYYY.</strong>{" "}
             Měsíc uvádíme slovem pro zvýšení čitelnost (předpokládáme, že v jeho
             okolí bude mnoho čísel).

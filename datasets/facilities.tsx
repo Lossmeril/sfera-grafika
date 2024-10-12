@@ -18,6 +18,7 @@ export const dilnaTextilu: facilityType = {
   elementSet: {
     elementPrefix: "Textil_",
     numberOfElements: 26,
+    newTrashhold: 25,
   },
 };
 
@@ -30,6 +31,7 @@ export const dilnaGrafiky: facilityType = {
   elementSet: {
     elementPrefix: "Grafika_",
     numberOfElements: 28,
+    newTrashhold: 25,
   },
 };
 
@@ -42,6 +44,7 @@ export const dilnaDreva: facilityType = {
   elementSet: {
     elementPrefix: "Drevo_",
     numberOfElements: 24,
+    newTrashhold: 24,
   },
 };
 
@@ -54,6 +57,7 @@ export const dilnaKovu: facilityType = {
   elementSet: {
     elementPrefix: "Kov Elektro_",
     numberOfElements: 27,
+    newTrashhold: 25,
   },
 };
 
@@ -67,6 +71,7 @@ export const laboratorITVR: facilityType = {
     elementPrefix: "IT_",
     numberOfElements: 29,
     forbiddenElements: [2, 8, 12, 15, 19, 20],
+    newTrashhold: 25,
   },
 };
 
@@ -79,6 +84,7 @@ export const laboratorFyziky: facilityType = {
   elementSet: {
     elementPrefix: "Fyzika_",
     numberOfElements: 25,
+    newTrashhold: 25,
   },
 };
 
@@ -91,6 +97,7 @@ export const laboratorChemie: facilityType = {
   elementSet: {
     elementPrefix: "Chemie_",
     numberOfElements: 28,
+    newTrashhold: 25,
   },
 };
 
@@ -103,6 +110,7 @@ export const laboratorPrirodopisu: facilityType = {
   elementSet: {
     elementPrefix: "Priroda_",
     numberOfElements: 33,
+    newTrashhold: 24,
   },
 };
 
@@ -115,6 +123,7 @@ export const sferickeHriste: facilityType = {
   elementSet: {
     elementPrefix: "Deti_",
     numberOfElements: 27,
+    newTrashhold: 25,
   },
 };
 
@@ -127,5 +136,6 @@ export const scienceOnSphere: facilityType = {
   elementSet: {
     elementPrefix: "Science_Sphere_",
     numberOfElements: 26,
+    newTrashhold: 24,
   },
 };

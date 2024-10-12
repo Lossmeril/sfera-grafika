@@ -3,5 +3,6 @@ export type elementSetType = {
   numberOfElements: number;
 
   forbiddenElements?: Array<number>;
+  newTrashhold: number;
   unique?: boolean;
 };

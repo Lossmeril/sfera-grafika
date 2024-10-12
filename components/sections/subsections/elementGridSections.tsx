@@ -6,19 +6,22 @@ interface ElementSquareProps {
   image: string;
   title: string;
   forbidden?: boolean;
+  authorElement?: boolean;
 }
 
 export const ElementSquare: React.FC<ElementSquareProps> = ({
   image,
   title,
   forbidden,
+  authorElement,
 }) => {
   return (
     <div className="flex flex-col flex-nowrap gap-2">
       <div
         className={
           "w-full aspect-square relative " +
-          (forbidden ? "forbidden-block " : " ")
+          (forbidden ? "forbidden-block " : " ") +
+          (authorElement ? "author-element-block " : " ")
         }
       >
         <Image
@@ -71,6 +74,7 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
               facility.elementSet.forbiddenElements &&
               facility.elementSet.forbiddenElements.includes(element)
             }
+            authorElement={element > facility.elementSet.newTrashhold}
           />
         ))}
       </div>

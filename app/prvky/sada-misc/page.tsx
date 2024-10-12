@@ -10,7 +10,7 @@ const SadaMiscPage = () => {
       <Section last>
         <h2>Sada prvků &quot;Miscellaneous&quot;</h2>
         <ul>
-          <li>
+          <li className="mb-2">
             Obrazová sada <strong>Miscellaneous</strong> (značena písmenem M |
             zkratkou Misc.) byla vytvořena k pojmutí znaků, u kterých je
             očekáváno opakované použití spjaté s určitou dílnou či programem,
