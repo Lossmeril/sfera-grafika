@@ -39,11 +39,22 @@ export const ElementBlock: React.FC<ElementBlockProps> = ({
 
 interface ElementSubSectionProps {
   children: React.ReactNode;
+  blocks?: boolean;
 }
 
-const ElementSubSection: React.FC<ElementSubSectionProps> = ({ children }) => {
+const ElementSubSection: React.FC<ElementSubSectionProps> = ({
+  children,
+  blocks,
+}) => {
   return (
-    <div className="w-full mt-8 mb-5 grid grid-cols1 2xl:grid-cols-2 gap-5">
+    <div
+      className={
+        "w-full mt-8 mb-5 grid gap-5 " +
+        (!blocks
+          ? "grid-cols1 2xl:grid-cols-2"
+          : "grid-cols-2 md:gird-cols-3 lg:gird-cols-4 2xl:grid-cols-6")
+      }
+    >
       {children}
     </div>
   );

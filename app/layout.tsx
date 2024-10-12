@@ -14,7 +14,7 @@ const youth = localFont({
     {
       path: "../public/fonts/Youth-Medium.woff2",
       weight: "500",
-      style: "italic",
+      style: "normal",
     },
     {
       path: "../public/fonts/Youth-Bold.woff2",

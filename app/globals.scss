@@ -135,6 +135,36 @@ strong {
   }
 }
 
+.forbidden-block {
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    content: "";
+    height: 1px;
+    width: 200%;
+    background-color: var(--sos);
+    mix-blend-mode: multiply;
+    z-index: 5;
+  }
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    content: "";
+    height: 1px;
+    width: 200%;
+    background-color: var(--sos);
+    mix-blend-mode: multiply;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

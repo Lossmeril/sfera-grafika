@@ -124,6 +124,22 @@ const ZakazanePrvkyPage = () => {
             společností / platformou.
           </li>
         </ul>
+        <ElementSubSection>
+          <ElementBlock
+            image={"/img/prvky/IT_motiv25.jpg"}
+            title={"IT_motiv25"}
+            reasoning="Může být vnímáno jako YouTube logo | Je však pouze obecným zobrazením symbolu 'Přehrát', který je obecný a nemůže být nárokován jako copyrightovaný symbol"
+          >
+            Ikona &quot;Přehrát video&quot;
+          </ElementBlock>
+          <ElementBlock
+            image={"/img/prvky/IT_motiv29.jpg"}
+            title={"IT_motiv29"}
+            reasoning="Může být vnímáno jako spojení s prohlížeči (Google Chrome) | Je však pouze obecným zobrazením špiona a nemůže být tudíž nárokována jako copyrightovaný symbol"
+          >
+            Ikona režimu inkognito v mnoha prohlížečích
+          </ElementBlock>
+        </ElementSubSection>
       </Section>
     </>
   );
