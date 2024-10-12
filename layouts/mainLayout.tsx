@@ -25,7 +25,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           </div>
           {/* --- NÁZEV STRÁNKY --- */}
           <div className="px-8 lg:px-20 py-4 lg:py-10 flex flex-col justify-center col-span-5 lg:col-span-4 border-x lg:border-l-0 lg:border-r">
-            <Link href="/">
+            <Link href="/" className="header-title">
               <h1 className="">Manuál pro práci se značkou SFÉRA</h1>
             </Link>
           </div>

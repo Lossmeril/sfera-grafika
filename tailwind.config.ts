@@ -24,6 +24,8 @@ const config: Config = {
         hriste: "var(--hriste)",
         tabory: "var(--tabory)",
         kreativniuceni: "var(--kreativniuceni)",
+
+        accent: { pink: "var(--accent-pink)"}
       },
       fontFamily: {
         youth: ["var(--youth)"],

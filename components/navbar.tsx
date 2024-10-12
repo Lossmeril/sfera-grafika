@@ -8,7 +8,7 @@ interface NavbarLinkProps {
 
 const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link, blank }) => {
   return (
-    <Link href={link} className="" target={blank ? "_blank" : ""}>
+    <Link href={link} className="menu-link" target={blank ? "_blank" : ""}>
       <li className="w-fit mx-auto">
         <span className="underline-link">{children}</span>
       </li>
@@ -22,6 +22,8 @@ const Navbar = () => {
       <h4>Prvky</h4>
       <NavbarLink link={"/prvky/sady"}>Sady prvků</NavbarLink>
       <NavbarLink link={"/prvky/zakazane-prvky"}>Zakázané prvky</NavbarLink>
+      <NavbarLink link={"/prvky/sada-misc"}>Sada Misc.</NavbarLink>
+      <NavbarLink link={"/prvky/unikatni-sady"}>Unikátní prvky</NavbarLink>
 
       <h4 className="mt-10">Jak se to píše?</h4>
       <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>

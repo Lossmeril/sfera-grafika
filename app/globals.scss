@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
+  //NEUTRAL
   --white: #ffffff;
   --black: #000000;
 
+  //PRIMARY
   --drevo: #7e5228;
   --kov: #afca0b;
   --grafika: #f7941d;
@@ -20,6 +22,9 @@
   --hriste: #3fa535;
   --tabory: #f37053;
   --kreativniuceni: #4aa1ae;
+
+  //ACCENTS
+  --accent-pink: #f4d7e5;
 }
 
 * {
@@ -72,7 +77,11 @@ strong {
 }
 
 a {
-  text-decoration: underline;
+  &:not(.menu-link) {
+    &:not(.header-title) {
+      text-decoration: underline;
+    }
+  }
 }
 
 .above-heading {

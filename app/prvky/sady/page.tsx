@@ -31,7 +31,7 @@ const SadyPrvkuPage = () => {
             dozvíte na stránce{" "}
             <Link href="/zakazane-prvky">Zakázané prvky</Link>.
           </li>
-          <div className="bg-sos p-5 text-white mt-5 border">
+          <div className="bg-accent-pink p-5 mt-5 border">
             <p>
               Obrázky níže jsou silně zkomprimovány, aby mohly být načteny na
               webu.
