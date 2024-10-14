@@ -123,6 +123,13 @@ const ZakazanePrvkyPage = () => {
 
         <ElementSubSection>
           <ElementBlock
+            image={"/img/prvky/IT_motiv.jpg"}
+            title={"IT_motiv"}
+            reasoning="Logo Apple AirDrop. Jelikož se ovšem skládá pouze z obecných tvarů, nelze jej zahrnout do autorského práva a je tudíž ve veřejné doméně."
+          >
+            Ikona &quot;Přehrát video&quot;
+          </ElementBlock>
+          <ElementBlock
             image={"/img/prvky/IT_motiv25.jpg"}
             title={"IT_motiv25"}
             reasoning="Může být vnímáno jako YouTube logo | Je však pouze obecným zobrazením symbolu 'Přehrát', který je obecný a nemůže být nárokován jako copyrightovaný symbol"
