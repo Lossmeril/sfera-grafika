@@ -56,7 +56,7 @@ export const dilnaKovu: facilityType = {
 
   elementSet: {
     elementPrefix: "Kov Elektro_",
-    numberOfElements: 28,
+    numberOfElements: 29,
     newTrashhold: 25,
   },
 };
