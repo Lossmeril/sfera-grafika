@@ -48,6 +48,27 @@ const SadaMiscPage = () => {
           >
             Heraldický drak in annulo
           </ElementBlock>
+          <ElementBlock
+            image={"/img/prvky/Misc_motiv5.jpg"}
+            title={"Misc_motiv5.jpg"}
+            reasoning="Používán u programů zaměřujících se na lidské tělo, proporce a matematiku v přírodě"
+          >
+            Da Vinciho Vitruviánský muž
+          </ElementBlock>
+          <ElementBlock
+            image={"/img/prvky/Misc_motiv6.jpg"}
+            title={"Misc_motiv6.jpg"}
+            reasoning="Používán u programů zabývajících se vyprávěním příběhů a filmografií"
+          >
+            Zmačkaný list scénáře
+          </ElementBlock>
+          <ElementBlock
+            image={"/img/prvky/Misc_motiv7.jpg"}
+            title={"Misc_motiv7.jpg"}
+            reasoning="Používán u programů souvisejících s jedinečností a forenzními vědami"
+          >
+            Otisk prstu
+          </ElementBlock>
         </ElementSubSection>
       </Section>
     </>
