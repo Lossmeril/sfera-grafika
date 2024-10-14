@@ -17,7 +17,7 @@ export const dilnaTextilu: facilityType = {
 
   elementSet: {
     elementPrefix: "Textil_",
-    numberOfElements: 32,
+    numberOfElements: 33,
     newTrashhold: 25,
   },
 };
@@ -43,7 +43,7 @@ export const dilnaDreva: facilityType = {
 
   elementSet: {
     elementPrefix: "Drevo_",
-    numberOfElements: 24,
+    numberOfElements: 29,
     newTrashhold: 24,
   },
 };
@@ -56,7 +56,7 @@ export const dilnaKovu: facilityType = {
 
   elementSet: {
     elementPrefix: "Kov Elektro_",
-    numberOfElements: 27,
+    numberOfElements: 28,
     newTrashhold: 25,
   },
 };
@@ -69,7 +69,7 @@ export const laboratorITVR: facilityType = {
 
   elementSet: {
     elementPrefix: "IT_",
-    numberOfElements: 29,
+    numberOfElements: 30,
     forbiddenElements: [2, 8, 12, 15, 19, 20],
     newTrashhold: 25,
   },
@@ -109,7 +109,7 @@ export const laboratorPrirodopisu: facilityType = {
 
   elementSet: {
     elementPrefix: "Priroda_",
-    numberOfElements: 33,
+    numberOfElements: 35,
     newTrashhold: 24,
   },
 };
