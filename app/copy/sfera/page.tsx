@@ -9,41 +9,68 @@ const DatumyPage = () => {
     <>
       <Section last>
         <h2>Psaní slova SFÉRA a odvozených variant</h2>
-        <ul>
-          <h3 className="mt-8 mb-2">SFÉRA</h3>
-          <li className="mb-2">
-            Pro zachování vizuální jednotnosti s logem bylo určeno, že SFÉRA a
-            všechna její skloňování se{" "}
-            <strong>píší verzálkami (velkými písmeny)</strong>. Při skloňování
-            se <strong>kapitalizuje celé slovo</strong>, nikoliv pouze jeho
-            kořen.
-          </li>
-          <p className="above-heading mt-8 ">Výjimka</p>
-          <h3 className="mb-2">sférický</h3>
-          <li className="mb-2">
-            Výjimkou je odvozené přídavné jméno{" "}
-            <strong>&ldquo;sférický&rdquo;</strong> (vč. skloňování), které se
-            píší <strong>bez jakékoliv úpravy kapitalizace</strong>.
-          </li>
-          <p className="above-heading mt-8 ">Výjimka</p>
-          <h3 className="mb-2">sféřan</h3>
-          <li className="mb-2">
-            Chceme-li mluvit o člověku ze SFÉRY jako o{" "}
-            <strong>&ldquo;sféřanovi&rdquo;</strong> (pod. jméno, vzor pán),
-            užijeme <strong>normální kapitalizaci</strong>, která vyplývá z věty
-          </li>
-          <p className="above-heading mt-8 ">Výjimka</p>
-          <h3 className="mb-2">O koulích a lidech</h3>
-          <li className="mb-2">
-            Druhou výjimkou je neobvyklé použití slova <strong></strong>
-            &ldquo;sféra&rdquo; v kontextu koule v Sále Science on a Sphere,
-            která se rovněž <strong>nekapitalizuje</strong>, aby nedošlo k mýlce
-            s celou institucí.
-            <br />
-            Toto použití je ale matoucí v kontextu vzdělávacího centra, proto
-            jej prosím používejte opravdu jen výjimečně.
-          </li>
-        </ul>
+        <h3 className="mt-8 mb-2">SFÉRA</h3>
+        <p className="mb-2">
+          Pro zachování vizuální jednotnosti s logem bylo určeno, že SFÉRA a
+          všechna její skloňování se{" "}
+          <strong>píší verzálkami (velkými písmeny)</strong>. Při skloňování se{" "}
+          <strong>kapitalizuje celé slovo</strong>, nikoliv pouze jeho kořen.
+        </p>
+
+        <h3 className="mt-8 mb-2">Název instituce</h3>
+        <p className="mb-2">
+          Pro běžnou komunikaci s veřejností používáme jeden ze dvou názvů:{" "}
+          <strong>Vzdělávací centrum SFÉRA Pradubice</strong>, nebo{" "}
+          <strong>SFÉRA - Vzdělávací centrum Pardubice</strong> (podle loga).
+        </p>
+        <p>
+          Toto aplikujeme pouze v případě, že potřebujeme instituci prezentovat{" "}
+          <strong>celým jménem</strong>. Mluvíme-li o SFÉŘE v obyčejné větě,
+          můžeme použít jakýkoliv tvar, který dodržuje dobrý vkus a není v
+          rozporu s podstatou věci.
+        </p>
+
+        <div className="bg-accent-pink p-5 mt-5 ">
+          <p className="">
+            Název <strong>Centrální polytechnické dílny, z.s.</strong> v běžné
+            komunikaci <strong>nepoužíváme</strong>. Tento název je určen pro
+            formální komunikaci a administrativu, do každodenní prezentace
+            nepatří, aby nedocházelo k zbytečnému matení obecné veřejnosti.
+          </p>
+
+          <p className="mb-0">
+            <strong>SFÉRA není s.r.o.</strong>, ani <strong>a.s.</strong>, proto
+            prosíme nepoužívejte tyto zkratky v komunikaci s názvem instituce.
+          </p>
+        </div>
+
+        <p className="above-heading mt-8 ">Výjimka</p>
+        <h3 className="mb-2">sférický</h3>
+        <p className="mb-2">
+          Výjimkou je odvozené přídavné jméno{" "}
+          <strong>&ldquo;sférický&rdquo;</strong> (vč. skloňování), které se
+          píší <strong>bez jakékoliv úpravy kapitalizace</strong>.
+        </p>
+
+        <p className="above-heading mt-8 ">Výjimka</p>
+        <h3 className="mb-2">sféřan</h3>
+        <p className="mb-2">
+          Chceme-li mluvit o člověku ze SFÉRY jako o{" "}
+          <strong>&ldquo;sféřanovi&rdquo;</strong> (pod. jméno, vzor pán),
+          užijeme <strong>normální kapitalizaci</strong>, která vyplývá z věty
+        </p>
+
+        <p className="above-heading mt-8 ">Výjimka</p>
+        <h3 className="mb-2">O koulích a lidech</h3>
+        <p className="mb-2">
+          Druhou výjimkou je neobvyklé použití slova <strong></strong>
+          &ldquo;sféra&rdquo; v kontextu koule v Sále Science on a Sphere, která
+          se rovněž <strong>nekapitalizuje</strong>, aby nedošlo k mýlce s celou
+          institucí.
+          <br />
+          Toto použití je ale matoucí v kontextu vzdělávacího centra, proto jej
+          prosím používejte opravdu jen výjimečně.
+        </p>
         <ExampleSubSection
           correct={
             <>
