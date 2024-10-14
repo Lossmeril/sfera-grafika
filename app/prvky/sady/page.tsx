@@ -32,7 +32,7 @@ const SadyPrvkuPage = () => {
             Některé prvky jsou přešktrnuté&mdash;to znamená, že se jedná o tzv.{" "}
             <strong>zakázaný prvek</strong>. Více o zakázaných prvcích se
             dozvíte na stránce{" "}
-            <Link href="/zakazane-prvky">Zakázané prvky</Link>.
+            <Link href="/prvky/zakazane-prvky">Zakázané prvky</Link>.
           </li>
           <div className="bg-accent-pink p-5 mt-5 border">
             <p>
