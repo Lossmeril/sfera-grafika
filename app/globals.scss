@@ -76,6 +76,10 @@ strong {
   font-weight: 700;
 }
 
+section h3 {
+  margin-top: 2.5em;
+}
+
 a {
   &:not(.menu-link) {
     &:not(.header-title) {

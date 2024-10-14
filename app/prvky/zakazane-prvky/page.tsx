@@ -9,20 +9,19 @@ const ZakazanePrvkyPage = () => {
       <ImageSection image="/img/pattern-wallpaper.webp" />
       <Section last>
         <h2>Prvky vyjmuté z běžného používání</h2>
-        <h3 className="mt-8 mb-2">Prvky spjaté s komerčními subjekty</h3>
-        <ul>
-          <li className="mb-2">
-            Vzhledem k charakteru SFÉRY, jakožto vzdělávacího zařízení s určitou
-            mírou nestranosti v komerčním prostoru bylo ustanoveno omezené
-            používání u původních prvků zobrazující loga spjatá s komerčními,
-            často korporátními subjekty.
-          </li>
-          <li className="mb-2">
-            Tyto symboly nejsou zakázané, jejich použití by mělo být ovšem velmi
-            omezené a oddůvodněné kontextem, aby nedocházelo k mylné asociaci se
-            zmíněnými subjekty.
-          </li>
-        </ul>
+        <h3>Prvky spjaté s komerčními subjekty</h3>
+
+        <p>
+          Vzhledem k charakteru SFÉRY, jakožto vzdělávacího zařízení s určitou
+          mírou nestranosti v komerčním prostoru bylo ustanoveno omezené
+          používání u původních prvků zobrazující loga spjatá s komerčními,
+          často korporátními subjekty.
+        </p>
+        <p>
+          Tyto symboly nejsou zakázané, jejich použití by mělo být ovšem velmi
+          omezené a oddůvodněné kontextem, aby nedocházelo k mylné asociaci se
+          zmíněnými subjekty.
+        </p>
 
         <ElementSubSection>
           <ElementBlock
@@ -78,16 +77,14 @@ const ZakazanePrvkyPage = () => {
           </ElementBlock>
         </ElementSubSection>
 
-        <h3 className="mt-8 mb-2">Prvky nižší grafické kvality</h3>
-        <ul>
-          <li className="mb-2">
-            U některých prvků bylo vypozorováno, že svým grafickým charakterem
-            nezapadají mezi ostatní. Jedná se o prvky s příliš ilustrovaným
-            vzhledem. Tyto prvky nejsou rovněž zakázané, ale je u nich
-            očekáváno, že jsou, či v budoucnu budou nahrazeny ekvivalenty vyšší
-            kvality.
-          </li>
-        </ul>
+        <h3>Prvky nižší grafické kvality</h3>
+
+        <p>
+          U některých prvků bylo vypozorováno, že svým grafickým charakterem
+          nezapadají mezi ostatní. Jedná se o prvky s příliš ilustrovaným
+          vzhledem. Tyto prvky nejsou rovněž zakázané, ale je u nich očekáváno,
+          že jsou, či v budoucnu budou nahrazeny ekvivalenty vyšší kvality.
+        </p>
 
         <ElementSubSection>
           <ElementBlock
@@ -116,14 +113,14 @@ const ZakazanePrvkyPage = () => {
         </ElementSubSection>
 
         <p className="above-heading mt-8 ">Výjimka</p>
-        <h3 className="mb-2">Znaky obecné</h3>
-        <ul>
-          <li className="mb-2">
-            Výjimkami jsou znaky příliš obecné, aby mohly být zohledněny v
-            autorském právu, ačkoliv jejich vzhled může být asociován s určitou
-            společností / platformou.
-          </li>
-        </ul>
+        <h3 className="mb-2 mt-0">Znaky obecné</h3>
+
+        <p>
+          Výjimkami jsou znaky příliš obecné, aby mohly být zohledněny v
+          autorském právu, ačkoliv jejich vzhled může být asociován s určitou
+          společností / platformou.
+        </p>
+
         <ElementSubSection>
           <ElementBlock
             image={"/img/prvky/IT_motiv25.jpg"}

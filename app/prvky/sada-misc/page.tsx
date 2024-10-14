@@ -9,15 +9,14 @@ const SadaMiscPage = () => {
       <ImageSection image="/img/pattern-wallpaper.webp" />
       <Section last>
         <h2>Sada prvků &quot;Miscellaneous&quot;</h2>
-        <ul>
-          <li className="mb-2">
-            Obrazová sada <strong>Miscellaneous</strong> (značena písmenem M |
-            zkratkou Misc.) byla vytvořena k pojmutí znaků, u kterých je
-            očekáváno opakované použití spjaté s určitou dílnou či programem,
-            ale tematicky se nehodí mezi zbytek prvků z dané učebny. Tyto
-            symboly by neměly být používány mimo jejich primární kontext.
-          </li>
-        </ul>
+
+        <p>
+          Obrazová sada <strong>Miscellaneous</strong> (značena písmenem M |
+          zkratkou Misc.) byla vytvořena k pojmutí znaků, u kterých je očekáváno
+          opakované použití spjaté s určitou dílnou či programem, ale tematicky
+          se nehodí mezi zbytek prvků z dané učebny. Tyto symboly by neměly být
+          používány mimo jejich primární kontext.
+        </p>
 
         <ElementSubSection>
           <ElementBlock

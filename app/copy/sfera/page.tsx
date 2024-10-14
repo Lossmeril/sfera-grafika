@@ -9,16 +9,16 @@ const DatumyPage = () => {
     <>
       <Section last>
         <h2>Psaní slova SFÉRA a odvozených variant</h2>
-        <h3 className="mt-8 mb-2">SFÉRA</h3>
-        <p className="mb-2">
+        <h3>SFÉRA</h3>
+        <p>
           Pro zachování vizuální jednotnosti s logem bylo určeno, že SFÉRA a
           všechna její skloňování se{" "}
           <strong>píší verzálkami (velkými písmeny)</strong>. Při skloňování se{" "}
           <strong>kapitalizuje celé slovo</strong>, nikoliv pouze jeho kořen.
         </p>
 
-        <h3 className="mt-8 mb-2">Název instituce</h3>
-        <p className="mb-2">
+        <h3>Název instituce</h3>
+        <p>
           Pro běžnou komunikaci s veřejností používáme jeden ze dvou názvů:{" "}
           <strong>Vzdělávací centrum SFÉRA Pradubice</strong>, nebo{" "}
           <strong>SFÉRA - Vzdělávací centrum Pardubice</strong> (podle loga).
@@ -45,24 +45,24 @@ const DatumyPage = () => {
         </div>
 
         <p className="above-heading mt-8 ">Výjimka</p>
-        <h3 className="mb-2">sférický</h3>
-        <p className="mb-2">
+        <h3 className="mb-2 mt-0">sférický</h3>
+        <p>
           Výjimkou je odvozené přídavné jméno{" "}
           <strong>&ldquo;sférický&rdquo;</strong> (vč. skloňování), které se
           píší <strong>bez jakékoliv úpravy kapitalizace</strong>.
         </p>
 
         <p className="above-heading mt-8 ">Výjimka</p>
-        <h3 className="mb-2">sféřan</h3>
-        <p className="mb-2">
+        <h3 className="mb-2 mt-0">sféřan</h3>
+        <p>
           Chceme-li mluvit o člověku ze SFÉRY jako o{" "}
           <strong>&ldquo;sféřanovi&rdquo;</strong> (pod. jméno, vzor pán),
           užijeme <strong>normální kapitalizaci</strong>, která vyplývá z věty
         </p>
 
         <p className="above-heading mt-8 ">Výjimka</p>
-        <h3 className="mb-2">O koulích a lidech</h3>
-        <p className="mb-2">
+        <h3 className="mb-2 mt-0">O koulích a lidech</h3>
+        <p>
           Druhou výjimkou je neobvyklé použití slova <strong></strong>
           &ldquo;sféra&rdquo; v kontextu koule v Sále Science on a Sphere, která
           se rovněž <strong>nekapitalizuje</strong>, aby nedošlo k mýlce s celou
