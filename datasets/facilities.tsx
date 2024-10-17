@@ -30,7 +30,7 @@ export const dilnaGrafiky: facilityType = {
 
   elementSet: {
     elementPrefix: "Grafika_",
-    numberOfElements: 28,
+    numberOfElements: 29,
     newTrashhold: 25,
   },
 };
@@ -56,7 +56,7 @@ export const dilnaKovu: facilityType = {
 
   elementSet: {
     elementPrefix: "Kov Elektro_",
-    numberOfElements: 29,
+    numberOfElements: 30,
     newTrashhold: 25,
   },
 };
@@ -135,7 +135,7 @@ export const scienceOnSphere: facilityType = {
 
   elementSet: {
     elementPrefix: "Science_Sphere_",
-    numberOfElements: 26,
+    numberOfElements: 27,
     newTrashhold: 24,
   },
 };
