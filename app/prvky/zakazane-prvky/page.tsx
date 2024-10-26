@@ -22,6 +22,7 @@ const ZakazanePrvkyPage = () => {
           omezené a oddůvodněné kontextem, aby nedocházelo k mylné asociaci se
           zmíněnými subjekty.
         </p>
+        <p>Nachází se zde i symboly nepřesné vůči realitě.</p>
 
         <ElementSubSection>
           <ElementBlock
@@ -74,6 +75,14 @@ const ZakazanePrvkyPage = () => {
             partnerství se společností Google"
           >
             Logo společnosti Google
+          </ElementBlock>
+
+          <ElementBlock
+            image={"/img/prvky/Chemie_motiv15.jpg"}
+            title={"Chemie_motiv15"}
+            reasoning="Jedná se o biologicky nepřesný tvar DNA. Lze použít ve výjimečných případech pro svoji barevnost. Nahrazujeme Priroda_motiv34, který je tvarem přesný."
+          >
+            DNA vzor
           </ElementBlock>
         </ElementSubSection>
 

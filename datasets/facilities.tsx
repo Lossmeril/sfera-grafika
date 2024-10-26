@@ -97,6 +97,7 @@ export const laboratorChemie: facilityType = {
   elementSet: {
     elementPrefix: "Chemie_",
     numberOfElements: 28,
+    forbiddenElements: [15],
     newTrashhold: 25,
   },
 };
