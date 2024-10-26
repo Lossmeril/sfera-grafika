@@ -30,7 +30,7 @@ export const dilnaGrafiky: facilityType = {
 
   elementSet: {
     elementPrefix: "Grafika_",
-    numberOfElements: 29,
+    numberOfElements: 30,
     newTrashhold: 25,
   },
 };
@@ -109,7 +109,7 @@ export const laboratorPrirodopisu: facilityType = {
 
   elementSet: {
     elementPrefix: "Priroda_",
-    numberOfElements: 35,
+    numberOfElements: 36,
     newTrashhold: 24,
   },
 };
