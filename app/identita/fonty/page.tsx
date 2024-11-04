@@ -23,11 +23,12 @@ const FontyPage = () => {
           </p>
         </FontBlock>
 
-        <h3>Vlastní font</h3>
+        <h3>Kolečka</h3>
         <p>
-          Speciálně pro sféru byl vytvořen<strong>Youth Rounded</strong> font,
-          který se objevuje mimo jiné v logu. Tento font je spíše pro
-          dekorativní účely a vůbec se nehodí pro dlouhé texty.
+          Speciálně pro sférické účely byl vytvořen
+          <strong>Youth Rounded</strong> font, který se objevuje mimo jiné v
+          logu. Tento font je spíše pro dekorativní účely a vůbec se nehodí pro
+          dlouhé texty.
         </p>
 
         <FontBlock>
