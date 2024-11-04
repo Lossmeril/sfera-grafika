@@ -1,4 +1,4 @@
-import Section, { ImageSection } from "@/components/sections/sections";
+import Section from "@/components/sections/sections";
 import ExampleSubSection, {
   CorrectExample,
   ErrorExample,
