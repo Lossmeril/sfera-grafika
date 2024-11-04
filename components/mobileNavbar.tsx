@@ -17,7 +17,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ active, menuToggle }) => {
   };
 
   const pathname = usePathname();
-  const [pathChanges, setChanges] = useState(0);
 
   useEffect(() => {
     handleMenuClose();
