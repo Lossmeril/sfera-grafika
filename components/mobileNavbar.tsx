@@ -1,7 +1,8 @@
 "use client";
 
 import { navbarItems } from "@/datasets/navbarItems";
-import React, { Dispatch, SetStateAction, useState } from "react";
+import { usePathname } from "next/navigation";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 
@@ -14,6 +15,13 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ active, menuToggle }) => {
   const handleMenuClose = () => {
     menuToggle(false);
   };
+
+  const pathname = usePathname();
+  const [pathChanges, setChanges] = useState(0);
+
+  useEffect(() => {
+    handleMenuClose();
+  }, [pathname]);
 
   return (
     <nav
