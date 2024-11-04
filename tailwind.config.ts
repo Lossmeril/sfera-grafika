@@ -39,6 +39,8 @@ const config: Config = {
       },
       fontFamily: {
         youth: ["var(--youth)"],
+        youthRounded: ["var(--youth-rounded)"],
+        aptos: ["var(--aptos)"],
       },
     },
   },
