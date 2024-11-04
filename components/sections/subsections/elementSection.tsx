@@ -17,7 +17,7 @@ export const ElementBlock: React.FC<ElementBlockProps> = ({
 }) => {
   return (
     <div className="flex flex-row flex-nowrap">
-      <div className="aspect-square h-40 border relative">
+      <div className="aspect-square h-20 lg:h-40 border relative">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
       <div className="bg-gray-200 w-full h-40 p-5">
@@ -28,7 +28,7 @@ export const ElementBlock: React.FC<ElementBlockProps> = ({
         )}
         <h4>{title}</h4>
 
-        <p className="mb-2 2xl:text-sm">{children}</p>
+        <p className="mb-2 text-xs md:text-sm">{children}</p>
         <p className={"text-xs " + (forbidden ? "text-sos" : "")}>
           {reasoning}
         </p>
