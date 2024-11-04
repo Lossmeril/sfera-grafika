@@ -17,10 +17,10 @@ export const ElementBlock: React.FC<ElementBlockProps> = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row flex-nowrap">
-      <div className="aspect-square h-40 border relative">
+      <div className="aspect-square h-auto md:h-40 border relative">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
-      <div className="bg-gray-200 w-full h-40 p-5">
+      <div className="bg-gray-200 w-full h-auto md:h-40 p-5">
         {forbidden ? (
           <p className="above-heading text-sos mb-2 text-sm">Zakázané</p>
         ) : (
