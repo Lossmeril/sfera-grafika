@@ -43,7 +43,7 @@ export const dilnaDreva: facilityType = {
 
   elementSet: {
     elementPrefix: "Drevo_",
-    numberOfElements: 29,
+    numberOfElements: 30,
     newTrashhold: 24,
   },
 };
