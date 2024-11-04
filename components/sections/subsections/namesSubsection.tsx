@@ -13,9 +13,12 @@ const TableCell: React.FC<NameSubSectionTableCellProps> = ({
     <td
       className="border p-2 w-1/3"
       style={{
-        backgroundColor: bgColor ? "var(--" + bgColor + ")" : "transparent",
-        color: bgColor ? "white" : "",
-        fontWeight: bgColor ? "700" : "",
+        backgroundColor:
+          bgColor && bgColor !== "white"
+            ? "var(--" + bgColor + ")"
+            : "transparent",
+        color: bgColor && bgColor !== "white" ? "white" : "",
+        fontWeight: bgColor && bgColor !== "white" ? "700" : "",
       }}
     >
       {children}
