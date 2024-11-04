@@ -22,7 +22,6 @@ const ZakazanePrvkyPage = () => {
           omezené a oddůvodněné kontextem, aby nedocházelo k mylné asociaci se
           zmíněnými subjekty.
         </p>
-        <p>Nachází se zde i symboly nepřesné vůči realitě.</p>
 
         <ElementSubSection>
           <ElementBlock
@@ -76,7 +75,15 @@ const ZakazanePrvkyPage = () => {
           >
             Logo společnosti Google
           </ElementBlock>
+        </ElementSubSection>
 
+        <h3>Prvky neodpovídající realitě</h3>
+        <p>
+          Vzhledem ke vzdělávacímu účelu instituce, byly vyřazeny z běžného
+          užívání prvky, které podporují mylnou představu o oboru, či jinak
+          rozporují realitu.
+        </p>
+        <ElementSubSection>
           <ElementBlock
             image={"/img/prvky/Chemie_motiv15.jpg"}
             title={"Chemie_motiv15"}
@@ -85,7 +92,6 @@ const ZakazanePrvkyPage = () => {
             DNA vzor
           </ElementBlock>
         </ElementSubSection>
-
         <h3>Prvky nižší grafické kvality</h3>
 
         <p>
@@ -136,7 +142,7 @@ const ZakazanePrvkyPage = () => {
             title={"IT_motiv"}
             reasoning="Logo Apple AirDrop. Jelikož se ovšem skládá pouze z obecných tvarů, nelze jej zahrnout do autorského práva a je tudíž ve veřejné doméně."
           >
-            Ikona &quot;Přehrát video&quot;
+            Logo Apple &quot;AirDrop&quot;
           </ElementBlock>
           <ElementBlock
             image={"/img/prvky/IT_motiv25.jpg"}
