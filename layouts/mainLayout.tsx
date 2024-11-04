@@ -1,4 +1,5 @@
 import LogoHeader from "@/components/logo";
+import MobileNavbar from "@/components/mobileNavbar";
 import Navbar from "@/components/navbar";
 import Link from "next/link";
 
@@ -38,8 +39,8 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           {/* --- BOČNÍ MENU --- */}
           <nav className="col-span-5 border-x border-b lg:col-span-1">
             <Navbar />
-            <div className="flex flex-row items-center w-full h-10 lg:hidden px-8 py-4 lg:py-20">
-              Mobile menu here
+            <div className="flex flex-row items-center justify-center w-full h-10 lg:hidden px-8 py-4 lg:py-20">
+              <MobileNavbar />
             </div>
           </nav>
 
