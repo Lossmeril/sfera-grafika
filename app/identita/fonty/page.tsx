@@ -32,7 +32,7 @@ const FontyPage = () => {
         </p>
 
         <FontBlock>
-          <p className="text-2xl font-bold mb-0 uppercase font-youthRounded">
+          <p className="text-xl md:text-2xl font-bold mb-0 uppercase font-youthRounded">
             Speciální Youth Rounded
           </p>
         </FontBlock>

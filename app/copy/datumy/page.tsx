@@ -30,7 +30,13 @@ const DatumyPage = () => {
         <ExampleSubSection
           correct={
             <>
-              <CorrectExample content={<>10. června 2024</>} />
+              <CorrectExample
+                content={
+                  <>
+                    10. <em>června</em> 2024
+                  </>
+                }
+              />
               <CorrectExample
                 content={
                   <>
