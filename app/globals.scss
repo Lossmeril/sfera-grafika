@@ -24,7 +24,16 @@
   --kreativniuceni: #4aa1ae;
 
   //ACCENTS
-  --accent-pink: #f4d7e5;
+  --accent-pink: #f7cadf;
+  --accent-red: #fac5aa;
+  --accent-orange: #fedbb3;
+  --accent-yellow: #fffa9e;
+  --accent-lime: #e1eebf;
+  --accent-green: #b7dca9;
+  --accent-blue: #8dd5f8;
+  --accent-purple: #a2adcd;
+  --accent-brown: #c2b5aa;
+  --accent-gray: #cacaca;
 }
 
 * {
@@ -117,6 +126,10 @@ a {
       width: 100%;
     }
   }
+}
+
+.menu-heading:not(.menu-heading:first-of-type) {
+  margin-top: 20px;
 }
 
 // ------ BLOKY PŘÍKLADŮ
