@@ -128,6 +128,8 @@ a {
   }
 }
 
+// ------ MENU
+
 .menu-heading:not(.menu-heading:first-of-type) {
   margin-top: 20px;
 }
@@ -136,15 +138,17 @@ a {
 
 .correct-example {
   em {
-    font-weight: 400;
+    font-weight: 700;
     color: var(--hriste);
+    font-style: normal;
   }
 }
 
 .error-example {
   em {
-    font-weight: 400;
+    font-weight: 700;
     color: var(--sos);
+    font-style: normal;
   }
 }
 

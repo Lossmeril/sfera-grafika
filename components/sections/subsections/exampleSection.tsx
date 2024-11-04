@@ -47,21 +47,23 @@ const ExampleBlock: React.FC<ExampleBlockProps> = ({ children, error }) => {
 interface ExampleSubSectionProps {
   correct: React.ReactNode;
   errors: React.ReactNode;
+  noBullets?: boolean;
 }
 
 const ExampleSubSection: React.FC<ExampleSubSectionProps> = ({
   correct,
   errors,
+  noBullets,
 }) => {
   return (
     <div className="w-full mt-8 mb-5 flex flex-col lg:flex-row flex-nowrap gap-5">
       <ExampleBlock>
         <h4>Správná užití:</h4>
-        <ul className="list-disc list-inside">{correct}</ul>
+        <ul className={!noBullets ? "list-disc list-inside" : ""}>{correct}</ul>
       </ExampleBlock>
       <ExampleBlock error>
         <h4>Chyby:</h4>
-        <ul className="list-disc list-inside">{errors}</ul>
+        <ul className={!noBullets ? "list-disc list-inside" : ""}>{errors}</ul>
       </ExampleBlock>
     </div>
   );

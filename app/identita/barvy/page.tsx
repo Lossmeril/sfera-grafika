@@ -13,12 +13,16 @@ const BarvyPage = () => {
     <>
       <Section last>
         <h2>Barvy SFÉRY</h2>
-        <p>SFÉRA používá</p>
         <p>
-          Jelikož původní barvy byly vytvořeny ze zaokrouhlených složek modelu
-          CMYK, bylo nutné jim vytvořit adekvátní RGB a HEX kódy pro snazší
-          práci v digitálním prostoru a na webu. Je stále doporučené užívat CMYK
-          kódy, kde je to jen možné.
+          SFÉRA používá pro svoji propagaci tři typy barev:{" "}
+          <strong>primární</strong>, <strong>sekundární</strong> a{" "}
+          <strong>podkladové</strong>.
+        </p>
+        <p>
+          Primární barvy jsou jediné určeny k vnější propagaci SFÉRY - v těchto
+          barvách se objevuje logo v základní podobě. Sekundární a podkladové
+          barvy jsou určeny k interní propagaci a neměly by být užívány třetími
+          stranami.
         </p>
         <h3>Primární barvy</h3>
         <ColorSubSection>
@@ -139,9 +143,27 @@ const BarvyPage = () => {
             CMYK={"75, 5, 100, 0"}
             text="white"
           />
+
+          <ColorBlock
+            name={"Kreativní Učení"}
+            colorName="kreativniuceni"
+            HEX={"#4AA1AE"}
+            RGB={"74, 161, 174"}
+            CMYK={"70, 20, 30, 0"}
+            text="white"
+          />
+          <ColorBlock
+            name={"Příměstský Tábor"}
+            colorName="tabory"
+            HEX={"#F37053"}
+            RGB={"243, 112, 83"}
+            CMYK={"0, 70, 70, 0"}
+            text="white"
+          />
         </ColorSubSection>
 
         <ExampleSubSection
+          noBullets
           correct={
             <>
               <CorrectExample
@@ -169,38 +191,6 @@ const BarvyPage = () => {
           }
         />
 
-        <h3>Nové sekundární barvy</h3>
-        <h4>Kreativní učení</h4>
-        <p>
-          Vzhledem na potřebu samostatného vyjmutí z ostatních programů a jejich
-          multioborovost, byla vytvořena světle-petrolejová barva.
-        </p>
-        <h4>Příměstské tábory</h4>
-        <p className="mb-10">
-          Původně neměly příměstské tábory používat žádnou barvu, ale jejich
-          plakáty trpěly absencí barevného pruhu, který na první pohled zaujme.
-          K přihlédnutím k jejich multioborovosti, začalo na ně být nahlíženo
-          jako na samostatnou lokaci a byla jim vytvořena lososová barva.
-        </p>
-        <ColorSubSection>
-          <ColorBlock
-            name={"Kreativní Učení"}
-            colorName="kreativniuceni"
-            HEX={"#4AA1AE"}
-            RGB={"74, 161, 174"}
-            CMYK={"70, 20, 30, 0"}
-            text="white"
-          />
-          <ColorBlock
-            name={"Příměstský Tábor"}
-            colorName="tabory"
-            HEX={"#F37053"}
-            RGB={"243, 112, 83"}
-            CMYK={"0, 70, 70, 0"}
-            text="white"
-          />
-        </ColorSubSection>
-
         <h3 id="podkladove-barvy">Podkladové barvy</h3>
         <p>
           Podkladové barvy jsou používány především v tiskovinách k obohacení
@@ -215,8 +205,8 @@ const BarvyPage = () => {
         </p>
         <div className="bg-accent-pink p-5 my-5 ">
           <p className="mb-0">
-            Sekundární barvy ani černá se nikdy nemůže objevit jako podklad pro
-            symbol ze sady prvků.
+            Žádná ze sekundárních barev ani černá se nikdy nemůže objevit jako
+            podklad pro symbol ze sady prvků.
           </p>
         </div>
         <ColorSubSection>
@@ -308,6 +298,7 @@ const BarvyPage = () => {
         </ColorSubSection>
 
         <ExampleSubSection
+          noBullets
           correct={
             <>
               <CorrectExample

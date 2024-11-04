@@ -17,33 +17,6 @@ const DatumyPage = () => {
           <strong>kapitalizuje celé slovo</strong>, nikoliv pouze jeho kořen.
         </p>
 
-        <h3>Název instituce</h3>
-        <p>
-          Pro běžnou komunikaci s veřejností používáme jeden ze dvou názvů:{" "}
-          <strong>Vzdělávací centrum SFÉRA Pradubice</strong>, nebo{" "}
-          <strong>SFÉRA - Vzdělávací centrum Pardubice</strong> (podle loga).
-        </p>
-        <p>
-          Toto aplikujeme pouze v případě, že potřebujeme instituci prezentovat{" "}
-          <strong>celým jménem</strong>. Mluvíme-li o SFÉŘE v obyčejné větě,
-          můžeme použít jakýkoliv tvar, který dodržuje dobrý vkus a není v
-          rozporu s podstatou věci.
-        </p>
-
-        <div className="bg-accent-pink p-5 mt-5 ">
-          <p className="">
-            Název <strong>Centrální polytechnické dílny, z.s.</strong> v běžné
-            komunikaci <strong>nepoužíváme</strong>. Tento název je určen pro
-            formální komunikaci a administrativu, do každodenní prezentace
-            nepatří, aby nedocházelo k zbytečnému matení obecné veřejnosti.
-          </p>
-
-          <p className="mb-0">
-            <strong>SFÉRA není s.r.o.</strong>, ani <strong>a.s.</strong>, proto
-            prosíme nepoužívejte tyto zkratky v komunikaci s názvem instituce.
-          </p>
-        </div>
-
         <p className="above-heading mt-8 ">Výjimka</p>
         <h3 className="mb-2 mt-0">sférický</h3>
         <p>

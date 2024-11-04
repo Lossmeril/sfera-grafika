@@ -19,14 +19,16 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link, blank }) => {
 export const navbarItems = (
   <>
     <h4 className="menu-heading">Identita</h4>
-    <NavbarLink link={"/grafika/logo"}>Logo</NavbarLink>
-    <NavbarLink link={"/grafika/barvy"}>Barvy</NavbarLink>
+    {/* <NavbarLink link={"/identita/logo"}>Logo</NavbarLink> */}
+    <NavbarLink link={"/identita/nazev"}>Název instituce</NavbarLink>
+    <NavbarLink link={"/identita/barvy"}>Barvy</NavbarLink>
+    <NavbarLink link={"/identita/fonty"}>Fonty</NavbarLink>
 
     <h4 className="menu-heading">Prvky</h4>
     <NavbarLink link={"/prvky/sady"}>Sady prvků</NavbarLink>
     <NavbarLink link={"/prvky/zakazane-prvky"}>Zakázané prvky</NavbarLink>
     <NavbarLink link={"/prvky/sada-misc"}>Sada Misc.</NavbarLink>
-    <NavbarLink link={"/prvky/unikatni-sady"}>Unikátní prvky</NavbarLink>
+    {/* <NavbarLink link={"/prvky/unikatni-sady"}>Unikátní prvky</NavbarLink> */}
 
     <h4 className="menu-heading">Jak se to píše?</h4>
     <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>
