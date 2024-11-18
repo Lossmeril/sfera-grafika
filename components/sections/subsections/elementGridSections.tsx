@@ -1,3 +1,4 @@
+import { uniqueSetType } from "@/datasets/elements";
 import { facilityType } from "@/datasets/facilities";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
@@ -83,3 +84,49 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
 };
 
 export default ElementGridSubSection;
+
+interface UniqueElementSetProps {
+  set: uniqueSetType;
+}
+
+export const UniqueElementGridSubSection: React.FC<UniqueElementSetProps> = ({
+  set,
+}) => {
+  const elements = Array.from(Array(set.numberOfElements).keys()).map(
+    (x) => x + 1
+  );
+
+  return (
+    <>
+      <h3
+        className={twMerge("text-center font-medium border mb-0")}
+        style={{
+          backgroundColor: set.color ? "var(--" + set.color + ")" : "",
+          color: set.color ? "white" : "black",
+        }}
+      >
+        {set.setName}
+      </h3>
+      <div className="w-full mb-0 mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4">
+        {elements.map((element) => (
+          <ElementSquare
+            key={element}
+            image={
+              "/img/prvky/unique/" +
+              set.elementPrefix +
+              "motiv" +
+              (element != 1 ? element : "") +
+              ".jpg"
+            }
+            title={
+              set.elementPrefix +
+              "motiv" +
+              (element != 1 ? element : "") +
+              ".jpg"
+            }
+          />
+        ))}
+      </div>
+    </>
+  );
+};

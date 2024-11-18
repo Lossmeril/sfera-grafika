@@ -28,7 +28,7 @@ export const navbarItems = (
     <NavbarLink link={"/prvky/sady"}>Sady prvků</NavbarLink>
     <NavbarLink link={"/prvky/zakazane-prvky"}>Zakázané prvky</NavbarLink>
     <NavbarLink link={"/prvky/sada-misc"}>Sada Misc.</NavbarLink>
-    {/* <NavbarLink link={"/prvky/unikatni-sady"}>Unikátní prvky</NavbarLink> */}
+    <NavbarLink link={"/prvky/unikatni-sady"}>Unikátní prvky</NavbarLink>
 
     <h4 className="menu-heading">Jak se to píše?</h4>
     <NavbarLink link={"/copy/sfera"}>SFÉRA</NavbarLink>
