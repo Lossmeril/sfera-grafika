@@ -99,10 +99,11 @@ export const UniqueElementGridSubSection: React.FC<UniqueElementSetProps> = ({
   return (
     <>
       <h3
-        className={twMerge("text-center font-medium border mb-0")}
+        className={twMerge("text-center font-medium border mb-0 text-white")}
         style={{
-          backgroundColor: set.color ? "var(--" + set.color + ")" : "",
-          color: set.color ? "white" : "black",
+          backgroundColor: set.color
+            ? "var(--" + set.color + ")"
+            : "var(--black)",
         }}
       >
         {set.setName}

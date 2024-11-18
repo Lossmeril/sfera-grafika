@@ -48,4 +48,10 @@ export const uniqueSets: uniqueSetType[] = [
     setName: "Výrobky",
     newTrashhold: 1,
   },
+  {
+    elementPrefix: "ŠKODA_",
+    numberOfElements: 1,
+    setName: "Škoda EDU.Lab",
+    newTrashhold: 1,
+  },
 ];

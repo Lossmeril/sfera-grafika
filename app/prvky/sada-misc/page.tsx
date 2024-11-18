@@ -34,11 +34,11 @@ const SadaMiscPage = () => {
             Gumová kachnička
           </ElementBlock>
           <ElementBlock
-            image={""}
+            image={"/img/prvky/Misc_motiv3.jpg"}
             title={"Misc_motiv3.jpg"}
-            reasoning="Prázdné místo vzniklo přesunem původního prvku do Unikátní sady"
+            reasoning="Používáno ve spojení s dětskými programy zahrnujícími koncept pokladu a rovněž pro historické přednášky"
           >
-            &mdash;v současnosti prázdný prvek&mdash;
+            Pražský groš
           </ElementBlock>
           <ElementBlock
             image={"/img/prvky/Misc_motiv4.jpg"}
