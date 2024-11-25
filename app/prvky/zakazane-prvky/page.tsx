@@ -25,32 +25,32 @@ const ZakazanePrvkyPage = () => {
 
         <ElementSubSection>
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv2.jpg"}
-            title={"IT-VR_motiv2"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv2.jpg"}
+            title={"IT VR_motiv2"}
             reasoning="Asociace s megakorporací Apple"
           >
             Načítací kurzor z macOS
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv8.jpg"}
-            title={"IT-VR_motiv8"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv8.jpg"}
+            title={"IT VR_motiv8"}
             reasoning="Asociace s megakorporací Google  |  možné použít, mluvíme-li o prohlížečích ale velmi opatrně"
           >
             Logo prohlížeče Google Chrome
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv12.jpg"}
-            title={"IT-VR_motiv12"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv12.jpg"}
+            title={"IT VR_motiv12"}
             reasoning="Asociace se společností Opera  |  možné použít, mluvíme-li o prohlížečích ale velmi opatrně"
           >
             Logo prohlížeče Opera
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv15.jpg"}
-            title={"IT-VR_motiv15"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv15.jpg"}
+            title={"IT VR_motiv15"}
             reasoning="Apple Emoji jsou explicitně free-to-use pouze na Apple zařízeních, licence se nevztahuje na rozšířené materiály"
             forbidden
           >
@@ -58,8 +58,8 @@ const ZakazanePrvkyPage = () => {
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv19.jpg"}
-            title={"IT-VR_motiv19"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv19.jpg"}
+            title={"IT VR_motiv19"}
             reasoning="Asociace s
             megakorporací Apple"
           >
@@ -67,8 +67,8 @@ const ZakazanePrvkyPage = () => {
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv20.jpg"}
-            title={"IT-VR_motiv20"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv20.jpg"}
+            title={"IT VR_motiv20"}
             forbidden
             reasoning="Google zakazuje užití bez aktivního
             partnerství se společností Google"
@@ -103,24 +103,24 @@ const ZakazanePrvkyPage = () => {
 
         <ElementSubSection>
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv18.jpg"}
-            title={"IT-VR_motiv18"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv18.jpg"}
+            title={"IT VR_motiv18"}
             reasoning="Plastický lesklý efekt ubírá symbolu na estetice"
           >
             Plastický symbol drátěné planety
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv23.jpg"}
-            title={"IT-VR_motiv23"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv23.jpg"}
+            title={"IT VR_motiv23"}
             reasoning="Ilustrace je nesourodá ve svém provedení s různou tloušťkou tahu  |  v budoucnu bude nahrazen fotografií"
           >
             Dobíjecí USB porty
           </ElementBlock>
 
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv24.jpg"}
-            title={"IT-VR_motiv24"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv24.jpg"}
+            title={"IT VR_motiv24"}
             reasoning="Volba barvy ikony není nejlepší a efekt stínu lze považovat za málo vkusný"
           >
             Geolokační ikona
@@ -138,22 +138,22 @@ const ZakazanePrvkyPage = () => {
 
         <ElementSubSection>
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv1.jpg"}
-            title={"IT-VR_motiv1"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv1.jpg"}
+            title={"IT VR_motiv1"}
             reasoning="Logo Apple AirDrop. Jelikož se ovšem skládá pouze z obecných tvarů, nelze jej zahrnout do autorského práva a je tudíž ve veřejné doméně."
           >
             Logo Apple &quot;AirDrop&quot;
           </ElementBlock>
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv25.jpg"}
-            title={"IT-VR_motiv25"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv25.jpg"}
+            title={"IT VR_motiv25"}
             reasoning="Může být vnímáno jako YouTube logo | Je však pouze obecným zobrazením symbolu 'Přehrát', který je obecný a nemůže být nárokován jako copyrightovaný symbol"
           >
             Ikona &quot;Přehrát video&quot;
           </ElementBlock>
           <ElementBlock
-            image={"/img/elements/Laboratoř IT_VR/IT-VR_motiv29.jpg"}
-            title={"IT-VR_motiv29"}
+            image={"/img/elements/Laboratoř IT_VR/IT VR_motiv29.jpg"}
+            title={"IT VR_motiv29"}
             reasoning="Může být vnímáno jako spojení s prohlížeči (Google Chrome) | Je však pouze obecným zobrazením špiona a nemůže být tudíž nárokována jako copyrightovaný symbol"
           >
             Ikona režimu inkognito v mnoha prohlížečích
