@@ -89,7 +89,7 @@ export const laboratorFyziky: facilityType = {
   elementSet: {
     elementPrefix: "Fyzika_",
     elementFolder: "Laboratoř Fyziky_Robotiky/",
-    numberOfElements: 25,
+    numberOfElements: 30,
     newTrashhold: 25,
   },
 };
@@ -118,7 +118,7 @@ export const laboratorPrirodopisu: facilityType = {
   elementSet: {
     elementPrefix: "Přírodopis_",
     elementFolder: "Laboratoř Přírodopisu/",
-    numberOfElements: 37,
+    numberOfElements: 36,
     newTrashhold: 24,
   },
 };

@@ -30,6 +30,7 @@ const UnikatniSadyPage = () => {
                 { fileName: "Tajuplný ostrov_motiv2", folderName: "Tábory" },
                 { fileName: "Tajuplný ostrov_motiv3", folderName: "Tábory" },
                 { fileName: "Tajuplný ostrov_motiv4", folderName: "Tábory" },
+                { fileName: "Vikingové_motiv1", folderName: "Tábory" },
               ]}
             />
           </div>
