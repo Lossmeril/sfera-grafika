@@ -26,10 +26,10 @@ const UnikatniSadyPage = () => {
               headerColor={"tabory"}
               elements={[
                 { fileName: "Addamsovi_motiv1", folderName: "Tábory" },
-                { fileName: "Tajuplný-ostrov_motiv1", folderName: "Tábory" },
-                { fileName: "Tajuplný-ostrov_motiv2", folderName: "Tábory" },
-                { fileName: "Tajuplný-ostrov_motiv3", folderName: "Tábory" },
-                { fileName: "Tajuplný-ostrov_motiv4", folderName: "Tábory" },
+                { fileName: "Tajuplný ostrov_motiv1", folderName: "Tábory" },
+                { fileName: "Tajuplný ostrov_motiv2", folderName: "Tábory" },
+                { fileName: "Tajuplný ostrov_motiv3", folderName: "Tábory" },
+                { fileName: "Tajuplný ostrov_motiv4", folderName: "Tábory" },
               ]}
             />
           </div>

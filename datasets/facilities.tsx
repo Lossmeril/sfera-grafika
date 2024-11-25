@@ -58,7 +58,7 @@ export const dilnaKovu: facilityType = {
   colorBgVarName: "kov",
 
   elementSet: {
-    elementPrefix: "Kov-Elektro_",
+    elementPrefix: "Kov Elektro_",
     elementFolder: "Dílna Kovu_Elektra/",
     numberOfElements: 30,
     newTrashhold: 25,
@@ -72,7 +72,7 @@ export const laboratorITVR: facilityType = {
   colorBgVarName: "it",
 
   elementSet: {
-    elementPrefix: "IT-VR_",
+    elementPrefix: "IT VR_",
     elementFolder: "Laboratoř IT_VR/",
     numberOfElements: 32,
     forbiddenElements: [2, 8, 12, 15, 19, 20],
