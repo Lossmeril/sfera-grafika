@@ -118,7 +118,7 @@ export const laboratorPrirodopisu: facilityType = {
   elementSet: {
     elementPrefix: "Přírodopis_",
     elementFolder: "Laboratoř Přírodopisu/",
-    numberOfElements: 36,
+    numberOfElements: 37,
     newTrashhold: 24,
   },
 };

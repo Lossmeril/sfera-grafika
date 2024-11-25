@@ -68,6 +68,20 @@ const SadaMiscPage = () => {
           >
             Otisk prstu
           </ElementBlock>
+          <ElementBlock
+            image={"/img/elements/Miscellaneous/Misc_motiv8.jpg"}
+            title={"Misc_motiv8.jpg"}
+            reasoning="Používán u propagace dárkových předmětů a poukazů; rovněž spojen s vánočními programy"
+          >
+            Dárek
+          </ElementBlock>
+          <ElementBlock
+            image={"/img/elements/Miscellaneous/Misc_motiv9.jpg"}
+            title={"Misc_motiv9.jpg"}
+            reasoning="Používán u programů s tematikou světla, tepla a vánočními tradicemi"
+          >
+            Svíčka
+          </ElementBlock>
         </ElementSubSection>
       </Section>
     </>
