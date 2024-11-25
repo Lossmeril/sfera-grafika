@@ -1,4 +1,3 @@
-import { uniqueSetType } from "@/datasets/elements";
 import { facilityType } from "@/datasets/facilities";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
@@ -59,10 +58,11 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
           <ElementSquare
             key={element}
             image={
-              "/img/prvky/" +
+              "/img/elements/" +
+              facility.elementSet.elementFolder +
               facility.elementSet.elementPrefix +
               "motiv" +
-              (element != 1 ? element : "") +
+              element +
               ".jpg"
             }
             title={
@@ -86,45 +86,43 @@ const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
 export default ElementGridSubSection;
 
 interface UniqueElementSetProps {
-  set: uniqueSetType;
+  setName: string;
+  headerColor: string;
+  elements: {
+    folderName: string;
+    fileName: string;
+  }[];
 }
 
 export const UniqueElementGridSubSection: React.FC<UniqueElementSetProps> = ({
-  set,
+  setName,
+  headerColor,
+  elements,
 }) => {
-  const elements = Array.from(Array(set.numberOfElements).keys()).map(
-    (x) => x + 1
-  );
-
   return (
     <>
       <h3
         className={twMerge("text-center font-medium border mb-0 text-white")}
         style={{
-          backgroundColor: set.color
-            ? "var(--" + set.color + ")"
+          backgroundColor: headerColor
+            ? "var(--" + headerColor + ")"
             : "var(--black)",
         }}
       >
-        {set.setName}
+        {setName}
       </h3>
       <div className="w-full mb-0 mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4">
         {elements.map((element) => (
           <ElementSquare
-            key={element}
+            key={element.fileName}
             image={
-              "/img/prvky/unique/" +
-              set.elementPrefix +
-              "motiv" +
-              (element != 1 ? element : "") +
+              "/img/elements/[[UNIQUE]]/" +
+              element.folderName +
+              "/" +
+              element.fileName +
               ".jpg"
             }
-            title={
-              set.elementPrefix +
-              "motiv" +
-              (element != 1 ? element : "") +
-              ".jpg"
-            }
+            title={element.fileName}
           />
         ))}
       </div>

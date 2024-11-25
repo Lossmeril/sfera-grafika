@@ -17,6 +17,7 @@ export const dilnaTextilu: facilityType = {
 
   elementSet: {
     elementPrefix: "Textil_",
+    elementFolder: "Dílna Textilu/",
     numberOfElements: 33,
     newTrashhold: 25,
   },
@@ -30,6 +31,7 @@ export const dilnaGrafiky: facilityType = {
 
   elementSet: {
     elementPrefix: "Grafika_",
+    elementFolder: "Dílna Grafiky/",
     numberOfElements: 30,
     newTrashhold: 25,
   },
@@ -42,7 +44,8 @@ export const dilnaDreva: facilityType = {
   colorBgVarName: "drevo",
 
   elementSet: {
-    elementPrefix: "Drevo_",
+    elementPrefix: "Dřevo_",
+    elementFolder: "Dílna Dřeva/",
     numberOfElements: 30,
     newTrashhold: 24,
   },
@@ -55,7 +58,8 @@ export const dilnaKovu: facilityType = {
   colorBgVarName: "kov",
 
   elementSet: {
-    elementPrefix: "Kov Elektro_",
+    elementPrefix: "Kov-Elektro_",
+    elementFolder: "Dílna Kovu_Elektra/",
     numberOfElements: 30,
     newTrashhold: 25,
   },
@@ -68,7 +72,8 @@ export const laboratorITVR: facilityType = {
   colorBgVarName: "it",
 
   elementSet: {
-    elementPrefix: "IT_",
+    elementPrefix: "IT-VR_",
+    elementFolder: "Laboratoř IT_VR/",
     numberOfElements: 32,
     forbiddenElements: [2, 8, 12, 15, 19, 20],
     newTrashhold: 25,
@@ -83,6 +88,7 @@ export const laboratorFyziky: facilityType = {
 
   elementSet: {
     elementPrefix: "Fyzika_",
+    elementFolder: "Laboratoř Fyziky_Robotiky/",
     numberOfElements: 25,
     newTrashhold: 25,
   },
@@ -96,6 +102,7 @@ export const laboratorChemie: facilityType = {
 
   elementSet: {
     elementPrefix: "Chemie_",
+    elementFolder: "Laboratoř Chemie/",
     numberOfElements: 28,
     forbiddenElements: [15],
     newTrashhold: 25,
@@ -109,7 +116,8 @@ export const laboratorPrirodopisu: facilityType = {
   colorBgVarName: "prirodopis",
 
   elementSet: {
-    elementPrefix: "Priroda_",
+    elementPrefix: "Přírodopis_",
+    elementFolder: "Laboratoř Přírodopisu/",
     numberOfElements: 36,
     newTrashhold: 24,
   },
@@ -122,7 +130,8 @@ export const sferickeHriste: facilityType = {
   colorBgVarName: "hriste",
 
   elementSet: {
-    elementPrefix: "Deti_",
+    elementPrefix: "Hřiště_",
+    elementFolder: "Sférické Hřiště/",
     numberOfElements: 27,
     newTrashhold: 25,
   },
@@ -135,7 +144,8 @@ export const scienceOnSphere: facilityType = {
   colorBgVarName: "sos",
 
   elementSet: {
-    elementPrefix: "Science_Sphere_",
+    elementPrefix: "SOS_",
+    elementFolder: "Sál Science on a Sphere/",
     numberOfElements: 27,
     newTrashhold: 24,
   },
@@ -149,6 +159,7 @@ export const primestskyTabor: facilityType = {
 
   elementSet: {
     elementPrefix: "",
+    elementFolder: "",
     numberOfElements: 0,
     newTrashhold: 0,
   },
@@ -162,6 +173,7 @@ export const kreativniUceni: facilityType = {
 
   elementSet: {
     elementPrefix: "",
+    elementFolder: "",
     numberOfElements: 0,
     newTrashhold: 0,
   },
@@ -175,6 +187,7 @@ export const eduLab: facilityType = {
 
   elementSet: {
     elementPrefix: "",
+    elementFolder: "",
     numberOfElements: 0,
     newTrashhold: 0,
   },

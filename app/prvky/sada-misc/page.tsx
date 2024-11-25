@@ -20,49 +20,49 @@ const SadaMiscPage = () => {
 
         <ElementSubSection>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv1.jpg"}
             title={"Misc_motiv.jpg"}
             reasoning=""
           >
             Vlajka Spojeného království Velké Británie a Severního Irska
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv2.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv2.jpg"}
             title={"Misc_motiv2.jpg"}
             reasoning="Používaná hlavně během programu 'S kachničkou kolem světa'"
           >
             Gumová kachnička
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv3.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv3.jpg"}
             title={"Misc_motiv3.jpg"}
             reasoning="Používáno ve spojení s dětskými programy zahrnujícími koncept pokladu a rovněž pro historické přednášky"
           >
             Pražský groš
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv4.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv4.jpg"}
             title={"Misc_motiv4.jpg"}
             reasoning="Používán u programů Dílny Grafiky týkajících se heraldiky"
           >
             Heraldický drak in annulo
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv5.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv5.jpg"}
             title={"Misc_motiv5.jpg"}
             reasoning="Používán u programů zaměřujících se na lidské tělo, proporce a matematiku v přírodě"
           >
             Da Vinciho Vitruviánský muž
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv6.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv6.jpg"}
             title={"Misc_motiv6.jpg"}
             reasoning="Používán u programů zabývajících se vyprávěním příběhů a filmografií"
           >
             Zmačkaný list scénáře
           </ElementBlock>
           <ElementBlock
-            image={"/img/prvky/Misc_motiv7.jpg"}
+            image={"/img/elements/Miscellaneous/Misc_motiv7.jpg"}
             title={"Misc_motiv7.jpg"}
             reasoning="Používán u programů souvisejících s jedinečností a forenzními vědami"
           >

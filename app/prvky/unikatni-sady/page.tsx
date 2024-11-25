@@ -1,6 +1,5 @@
 import Section, { ImageSection } from "@/components/sections/sections";
 import { UniqueElementGridSubSection } from "@/components/sections/subsections/elementGridSections";
-import { uniqueSets } from "@/datasets/elements";
 
 const UnikatniSadyPage = () => {
   return (
@@ -21,11 +20,55 @@ const UnikatniSadyPage = () => {
         </p>
 
         <div className="grid grid-cols-2 gap-3">
-          {uniqueSets.map((set) => (
-            <div key={set.elementPrefix} className="w-full">
-              <UniqueElementGridSubSection set={set} />
-            </div>
-          ))}
+          <div className="w-full">
+            <UniqueElementGridSubSection
+              setName={"Příměstské Tábory"}
+              headerColor={"tabory"}
+              elements={[
+                { fileName: "Addamsovi_motiv1", folderName: "Tábory" },
+                { fileName: "Tajuplný-ostrov_motiv1", folderName: "Tábory" },
+                { fileName: "Tajuplný-ostrov_motiv2", folderName: "Tábory" },
+                { fileName: "Tajuplný-ostrov_motiv3", folderName: "Tábory" },
+                { fileName: "Tajuplný-ostrov_motiv4", folderName: "Tábory" },
+              ]}
+            />
+          </div>
+          <div className="w-full">
+            <UniqueElementGridSubSection
+              setName={"Přednášky, workshopy a eventy"}
+              headerColor={"black"}
+              elements={[
+                {
+                  fileName: "Plachetnice_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
+                  fileName: "Přemyslovci_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
+                  fileName: "ŠKODA_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+              ]}
+            />
+          </div>
+          <div className="w-full">
+            <UniqueElementGridSubSection
+              setName={"Výrobky"}
+              headerColor={"black"}
+              elements={[
+                {
+                  fileName: "Vánoční ozdoba_motiv1",
+                  folderName: "Výrobky",
+                },
+                {
+                  fileName: "Věnec s ptáčkem_motiv1",
+                  folderName: "Výrobky",
+                },
+              ]}
+            />
+          </div>
         </div>
       </Section>
     </>
