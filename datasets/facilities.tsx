@@ -74,7 +74,7 @@ export const laboratorITVR: facilityType = {
   elementSet: {
     elementPrefix: "IT VR_",
     elementFolder: "Laboratoř IT_VR/",
-    numberOfElements: 34,
+    numberOfElements: 35,
     forbiddenElements: [2, 8, 12, 15, 19, 20],
     newTrashhold: 25,
   },
