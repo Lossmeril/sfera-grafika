@@ -103,7 +103,7 @@ export const laboratorChemie: facilityType = {
   elementSet: {
     elementPrefix: "Chemie_",
     elementFolder: "Laboratoř Chemie/",
-    numberOfElements: 28,
+    numberOfElements: 29,
     forbiddenElements: [15],
     newTrashhold: 25,
   },
