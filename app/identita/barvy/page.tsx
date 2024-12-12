@@ -136,7 +136,7 @@ const BarvyPage = () => {
           />
 
           <ColorBlock
-            name={"Sfériské Hřiště"}
+            name={"Sférické Hřiště"}
             colorName="hriste"
             HEX={"#3FA535"}
             RGB={"63, 165, 53"}
