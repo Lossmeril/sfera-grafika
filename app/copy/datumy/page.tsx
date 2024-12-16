@@ -71,7 +71,7 @@ const DatumyPage = () => {
               <CorrectExample
                 content={
                   <>
-                    18.30<em>&mdash;</em>20:00
+                    18.30<em>&mdash;</em>20.00
                   </>
                 }
                 explanation={"dlouhá pomlčka bez mezer"}
