@@ -1,3 +1,4 @@
+import CopyEmDash from "@/components/copyEmDash";
 import LogoHeader from "@/components/logo";
 import MobileNavbar from "@/components/mobileNavbar";
 import Navbar from "@/components/navbar";
@@ -10,6 +11,7 @@ interface MainLayoutProps {
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <>
+      <CopyEmDash />
       <div className="border-b h-[5vh]">
         <div className="border-x h-[5vh] mx-5 sm:mx-10 lg:mx-20"></div>
       </div>
