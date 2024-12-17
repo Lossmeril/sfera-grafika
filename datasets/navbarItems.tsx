@@ -9,7 +9,7 @@ interface NavbarLinkProps {
 const NavbarLink: React.FC<NavbarLinkProps> = ({ children, link, blank }) => {
   return (
     <Link href={link} className="menu-link" target={blank ? "_blank" : ""}>
-      <li className="w-fit mx-auto">
+      <li className="mx-auto">
         <span className="underline-link">{children}</span>
       </li>
     </Link>
