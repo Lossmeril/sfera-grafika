@@ -21,7 +21,7 @@ const CopyEmDash = () => {
     <div className="fixed bottom-16 right-16 z-50">
       {/* --- MESSAGE POPUP --- */}
       <div
-        className="absolute right-20 top-1/2 -translate-y-1/2 flex justify-center items-center p-4 w-[300px] bg-hriste text-white font-bold transition-all pointer-events-none shadow-xl"
+        className="absolute right-20 top-1/2 -translate-y-1/2 flex justify-center items-center p-4 w-[20em] bg-hriste text-white font-bold transition-all pointer-events-none shadow-xl"
         style={{ opacity: showPopup ? 1 : 0 }}
       >
         Dlouhá pomlčka zkopírována!
