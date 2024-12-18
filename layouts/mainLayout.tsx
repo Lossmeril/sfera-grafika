@@ -15,7 +15,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       <div className="border-b h-[5vh]">
         <div className="border-x h-[5vh] mx-5 sm:mx-10 lg:mx-20"></div>
       </div>
-      <div className="w-full h-[90vh]">
+      <div className="w-full lg:h-[90vh]">
         {/* --- HLAVIČKA --- */}
         <header className="border-b h-auto lg:h-[13vh] flex flex-col justify-center overflow-hidden">
           <div className=" mx-5 sm:mx-10 lg:mx-20 grid grid-cols-5">
@@ -37,7 +37,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 
         {/* --- HLAVNÍ STRÁNKA --- */}
         <main className="">
-          <div className="grid grid-cols-5 mx-5 sm:mx-10 lg:mx-20 max-h-[70vh]">
+          <div className="grid grid-cols-5 mx-5 sm:mx-10 lg:mx-20 lg:max-h-[70vh]">
             {/* --- BOČNÍ MENU --- */}
             <nav className="col-span-5 border-x border-b lg:col-span-1 max-h-[70vh] overflow-scroll">
               <Navbar />
