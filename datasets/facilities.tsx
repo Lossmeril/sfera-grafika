@@ -46,7 +46,7 @@ export const dilnaDreva: facilityType = {
   elementSet: {
     elementPrefix: "Dřevo_",
     elementFolder: "Dílna Dřeva/",
-    numberOfElements: 30,
+    numberOfElements: 31,
     newTrashhold: 24,
   },
 };
