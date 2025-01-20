@@ -23,7 +23,6 @@ const config: Config = {
         sos: "var(--sos)",
         hriste: "var(--hriste)",
         tabory: "var(--tabory)",
-        kreativniuceni: "var(--kreativniuceni)",
 
         accent: { pink: "var(--accent-pink)",
           red: "var(--accent-red)",

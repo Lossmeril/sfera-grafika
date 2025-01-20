@@ -186,14 +186,14 @@ const DatumyPage = () => {
 
         <NameSubSection>
           <NameSubSectionItem
-            facility={kreativniUceni}
-            sentenceUsage="kreativní učení"
-            customSentence="Probíhá projekt"
-          />
-          <NameSubSectionItem
             facility={primestskyTabor}
             sentenceUsage="příměstský tábor"
             customSentence="Poslali jsme děti na"
+          />
+          <NameSubSectionItem
+            facility={kreativniUceni}
+            sentenceUsage="kreativní učení"
+            customSentence="Probíhá projekt"
           />
           <NameSubSectionItem
             facility={eduLab}

@@ -145,14 +145,6 @@ const BarvyPage = () => {
           />
 
           <ColorBlock
-            name={"Kreativní Učení"}
-            colorName="kreativniuceni"
-            HEX={"#4AA1AE"}
-            RGB={"74, 161, 174"}
-            CMYK={"70, 20, 30, 0"}
-            text="white"
-          />
-          <ColorBlock
             name={"Příměstský Tábor"}
             colorName="tabory"
             HEX={"#F37053"}
