@@ -132,7 +132,7 @@ export const sferickeHriste: facilityType = {
   elementSet: {
     elementPrefix: "Hřiště_",
     elementFolder: "Sférické Hřiště/",
-    numberOfElements: 27,
+    numberOfElements: 30,
     newTrashhold: 25,
   },
 };
