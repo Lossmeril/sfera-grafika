@@ -18,7 +18,7 @@ export const dilnaTextilu: facilityType = {
   elementSet: {
     elementPrefix: "Textil_",
     elementFolder: "Dílna Textilu/",
-    numberOfElements: 39,
+    numberOfElements: 42,
     newTrashhold: 25,
   },
 };
