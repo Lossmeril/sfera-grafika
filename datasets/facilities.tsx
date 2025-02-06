@@ -18,7 +18,7 @@ export const dilnaTextilu: facilityType = {
   elementSet: {
     elementPrefix: "Textil_",
     elementFolder: "Dílna Textilu/",
-    numberOfElements: 38,
+    numberOfElements: 39,
     newTrashhold: 25,
   },
 };
@@ -60,7 +60,7 @@ export const dilnaKovu: facilityType = {
   elementSet: {
     elementPrefix: "Kov Elektro_",
     elementFolder: "Dílna Kovu_Elektra/",
-    numberOfElements: 30,
+    numberOfElements: 31,
     newTrashhold: 25,
   },
 };
