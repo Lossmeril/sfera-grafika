@@ -32,6 +32,10 @@ const UnikatniSadyPage = () => {
                 { fileName: "Tajuplný ostrov_motiv4", folderName: "Tábory" },
                 { fileName: "Vikingové_motiv1", folderName: "Tábory" },
                 { fileName: "Vikingové_motiv2", folderName: "Tábory" },
+                { fileName: "Vikingové_motiv3", folderName: "Tábory" },
+                { fileName: "Vikingové_motiv4", folderName: "Tábory" },
+                { fileName: "Sherlock_motiv1", folderName: "Tábory" },
+                { fileName: "Sherlock_motiv2", folderName: "Tábory" },
               ]}
             />
           </div>
@@ -50,6 +54,18 @@ const UnikatniSadyPage = () => {
                 },
                 {
                   fileName: "ŠKODA_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
+                  fileName: "Viva la Textilia_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
+                  fileName: "Viva la Textilia_motiv2",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
+                  fileName: "Viva la Textilia_motiv3",
                   folderName: "Přednášky, workshopy, eventy",
                 },
               ]}
