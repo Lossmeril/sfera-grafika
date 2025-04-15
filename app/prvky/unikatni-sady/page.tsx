@@ -57,6 +57,10 @@ const UnikatniSadyPage = () => {
                   folderName: "Přednášky, workshopy, eventy",
                 },
                 {
+                  fileName: "Tandem_motiv1",
+                  folderName: "Přednášky, workshopy, eventy",
+                },
+                {
                   fileName: "Viva la Textilia_motiv1",
                   folderName: "Přednášky, workshopy, eventy",
                 },

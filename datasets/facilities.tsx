@@ -60,7 +60,7 @@ export const dilnaKovu: facilityType = {
   elementSet: {
     elementPrefix: "Kov Elektro_",
     elementFolder: "Dílna Kovu_Elektra/",
-    numberOfElements: 32,
+    numberOfElements: 33,
     newTrashhold: 25,
   },
 };
