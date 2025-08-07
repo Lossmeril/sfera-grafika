@@ -111,7 +111,7 @@ const BarvyPage = () => {
           <ColorBlock
             name={"Laboratoř Chemie"}
             colorName="chemie"
-            HEX={"#EC619F"}
+            HEX={"#6859A3"}
             RGB={"104, 89, 163"}
             CMYK={"70, 70, 0, 0"}
             text="white"
