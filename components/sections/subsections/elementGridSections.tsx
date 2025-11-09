@@ -1,4 +1,4 @@
-import { facilityType } from "@/datasets/facilities";
+import { Facility } from "@/utils/apiTypes";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
@@ -37,45 +37,24 @@ export const ElementSquare: React.FC<ElementSquareProps> = ({
 };
 
 interface ElementSetProps {
-  facility: facilityType;
+  facility: Facility;
 }
 
 const ElementGridSubSection: React.FC<ElementSetProps> = ({ facility }) => {
-  const elements = Array.from(
-    Array(facility.elementSet.numberOfElements).keys()
-  ).map((x) => x + 1);
-
   return (
     <>
       <h3
         className={twMerge("text-center text-white font-medium border mb-0")}
-        style={{ backgroundColor: "var(--" + facility.colorBgVarName }}
+        style={{ backgroundColor: facility.colorBg }}
       >
         {facility.name}
       </h3>
       <div className="w-full mb-10 mt-4 grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 2xl:grid-cols-10 gap-4">
-        {elements.map((element) => (
+        {facility.elementSet.elements.map((element) => (
           <ElementSquare
-            key={element}
-            image={
-              "/img/elements/" +
-              facility.elementSet.elementFolder +
-              facility.elementSet.elementPrefix +
-              "motiv" +
-              element +
-              ".jpg"
-            }
-            title={
-              facility.elementSet.elementPrefix +
-              "motiv" +
-              (element != 1 ? element : "") +
-              ".jpg"
-            }
-            forbidden={
-              facility.elementSet.forbiddenElements &&
-              facility.elementSet.forbiddenElements.includes(element)
-            }
-            authorElement={element > facility.elementSet.newTrashhold}
+            key={element.id}
+            image={element.variants.find((v) => v.size === "medium")?.url || ""}
+            title={element.name}
           />
         ))}
       </div>

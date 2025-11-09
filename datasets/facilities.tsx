@@ -1,12 +1,8 @@
-import { elementSetType } from "./elements";
-
 export type facilityType = {
   name: string;
   nameEn: string;
 
   colorBgVarName: string;
-
-  elementSet: elementSetType;
 };
 
 export const dilnaTextilu: facilityType = {
@@ -14,13 +10,6 @@ export const dilnaTextilu: facilityType = {
   nameEn: "Textiles Workshop",
 
   colorBgVarName: "textil",
-
-  elementSet: {
-    elementPrefix: "Textil_",
-    elementFolder: "Dílna Textilu/",
-    numberOfElements: 45,
-    newTrashhold: 25,
-  },
 };
 
 export const dilnaGrafiky: facilityType = {
@@ -28,13 +17,6 @@ export const dilnaGrafiky: facilityType = {
   nameEn: "Graphics Workshop",
 
   colorBgVarName: "grafika",
-
-  elementSet: {
-    elementPrefix: "Grafika_",
-    elementFolder: "Dílna Grafiky/",
-    numberOfElements: 31,
-    newTrashhold: 25,
-  },
 };
 
 export const dilnaDreva: facilityType = {
@@ -42,13 +24,6 @@ export const dilnaDreva: facilityType = {
   nameEn: "Wood Workshop",
 
   colorBgVarName: "drevo",
-
-  elementSet: {
-    elementPrefix: "Dřevo_",
-    elementFolder: "Dílna Dřeva/",
-    numberOfElements: 31,
-    newTrashhold: 24,
-  },
 };
 
 export const dilnaKovu: facilityType = {
@@ -56,13 +31,6 @@ export const dilnaKovu: facilityType = {
   nameEn: "Metal/Electric Workshop",
 
   colorBgVarName: "kov",
-
-  elementSet: {
-    elementPrefix: "Kov Elektro_",
-    elementFolder: "Dílna Kovu_Elektra/",
-    numberOfElements: 33,
-    newTrashhold: 25,
-  },
 };
 
 export const laboratorITVR: facilityType = {
@@ -70,14 +38,6 @@ export const laboratorITVR: facilityType = {
   nameEn: "Computer Science/VR Lab",
 
   colorBgVarName: "it",
-
-  elementSet: {
-    elementPrefix: "IT VR_",
-    elementFolder: "Laboratoř IT_VR/",
-    numberOfElements: 35,
-    forbiddenElements: [2, 8, 12, 15, 19, 20],
-    newTrashhold: 25,
-  },
 };
 
 export const laboratorFyziky: facilityType = {
@@ -85,13 +45,6 @@ export const laboratorFyziky: facilityType = {
   nameEn: "Physics Lab",
 
   colorBgVarName: "fyzika",
-
-  elementSet: {
-    elementPrefix: "Fyzika_",
-    elementFolder: "Laboratoř Fyziky_Robotiky/",
-    numberOfElements: 30,
-    newTrashhold: 25,
-  },
 };
 
 export const laboratorChemie: facilityType = {
@@ -99,14 +52,6 @@ export const laboratorChemie: facilityType = {
   nameEn: "Chemistry Lab",
 
   colorBgVarName: "chemie",
-
-  elementSet: {
-    elementPrefix: "Chemie_",
-    elementFolder: "Laboratoř Chemie/",
-    numberOfElements: 29,
-    forbiddenElements: [15],
-    newTrashhold: 25,
-  },
 };
 
 export const laboratorPrirodopisu: facilityType = {
@@ -114,13 +59,6 @@ export const laboratorPrirodopisu: facilityType = {
   nameEn: "Biology Lab",
 
   colorBgVarName: "prirodopis",
-
-  elementSet: {
-    elementPrefix: "Přírodopis_",
-    elementFolder: "Laboratoř Přírodopisu/",
-    numberOfElements: 36,
-    newTrashhold: 24,
-  },
 };
 
 export const sferickeHriste: facilityType = {
@@ -128,13 +66,6 @@ export const sferickeHriste: facilityType = {
   nameEn: "Spherical Playground",
 
   colorBgVarName: "hriste",
-
-  elementSet: {
-    elementPrefix: "Hřiště_",
-    elementFolder: "Sférické Hřiště/",
-    numberOfElements: 30,
-    newTrashhold: 25,
-  },
 };
 
 export const scienceOnSphere: facilityType = {
@@ -142,13 +73,6 @@ export const scienceOnSphere: facilityType = {
   nameEn: "Science on a Sphere Room",
 
   colorBgVarName: "sos",
-
-  elementSet: {
-    elementPrefix: "SOS_",
-    elementFolder: "Sál Science on a Sphere/",
-    numberOfElements: 27,
-    newTrashhold: 24,
-  },
 };
 
 export const primestskyTabor: facilityType = {
@@ -156,13 +80,6 @@ export const primestskyTabor: facilityType = {
   nameEn: "Day Camp",
 
   colorBgVarName: "tabory",
-
-  elementSet: {
-    elementPrefix: "",
-    elementFolder: "",
-    numberOfElements: 0,
-    newTrashhold: 0,
-  },
 };
 
 export const kreativniUceni: facilityType = {
@@ -170,13 +87,6 @@ export const kreativniUceni: facilityType = {
   nameEn: "Creative Learning",
 
   colorBgVarName: "white",
-
-  elementSet: {
-    elementPrefix: "",
-    elementFolder: "",
-    numberOfElements: 0,
-    newTrashhold: 0,
-  },
 };
 
 export const eduLab: facilityType = {
@@ -184,11 +94,4 @@ export const eduLab: facilityType = {
   nameEn: "AI EduLab @ SFERA",
 
   colorBgVarName: "white",
-
-  elementSet: {
-    elementPrefix: "",
-    elementFolder: "",
-    numberOfElements: 0,
-    newTrashhold: 0,
-  },
 };

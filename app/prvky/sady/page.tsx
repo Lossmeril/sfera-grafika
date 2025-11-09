@@ -1,20 +1,35 @@
+"use client";
+
 import Section, { ImageSection } from "@/components/sections/sections";
 import ElementGridSubSection from "@/components/sections/subsections/elementGridSections";
-import {
-  dilnaDreva,
-  dilnaGrafiky,
-  dilnaKovu,
-  dilnaTextilu,
-  laboratorChemie,
-  laboratorFyziky,
-  laboratorITVR,
-  laboratorPrirodopisu,
-  scienceOnSphere,
-  sferickeHriste,
-} from "@/datasets/facilities";
+import { Facility } from "@/utils/apiTypes";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const SadyPrvkuPage = () => {
+  const [facilities, setFacilities] = useState<Facility[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchItems = async () => {
+      try {
+        const res = await fetch(
+          "https://branding.sferagrafika.eu/api/facilities"
+        );
+        if (!res.ok) throw new Error("Failed to fetch items");
+        const data: Facility[] = await res.json();
+        setFacilities(data);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchItems();
+  }, []);
+
   return (
     <>
       <ImageSection image="/img/pattern-wallpaper.webp" />
@@ -56,18 +71,19 @@ const SadyPrvkuPage = () => {
             </p>
           </div>
         </ul>
-        <ElementGridSubSection facility={dilnaTextilu} />
-        <ElementGridSubSection facility={dilnaGrafiky} />
-        <ElementGridSubSection facility={dilnaDreva} />
-        <ElementGridSubSection facility={dilnaKovu} />
 
-        <ElementGridSubSection facility={laboratorITVR} />
-        <ElementGridSubSection facility={laboratorFyziky} />
-        <ElementGridSubSection facility={laboratorChemie} />
-        <ElementGridSubSection facility={laboratorPrirodopisu} />
+        {loading && <p>Načítání sad prvků...</p>}
 
-        <ElementGridSubSection facility={sferickeHriste} />
-        <ElementGridSubSection facility={scienceOnSphere} />
+        {!loading && facilities.length === 0 && (
+          <p>Žádné sady prvků nebyly nalezeny.</p>
+        )}
+
+        {facilities &&
+          facilities
+            .filter((facility) => facility.elementSet)
+            .map((facility) => (
+              <ElementGridSubSection key={facility.id} facility={facility} />
+            ))}
       </Section>
     </>
   );
